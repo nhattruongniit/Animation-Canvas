@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=750">
+        <title>ファルファル走 presented by キングダム -英雄の系譜- </title>
+        <meta name="description" content="【Web企画】騰となって、戦場を駆け抜けろ！キャンペーン結果に応じて無料10人登用の★4出現率が最大2倍に大進化！">
+
+        <meta property="og:title" content="ファルファル走 presented by キングダム -英雄の系譜-">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="【Web企画】騰となって、戦場を駆け抜けろ！キャンペーン結果に応じて無料10人登用の★4出現率が最大2倍に大進化！">
+        <meta property="og:description" content="【Web企画】騰となって、戦場を駆け抜けろ！キャンペーン結果に応じて無料10人登用の★4出現率が最大2倍に大進化！">
+        <meta property="og:locale" content="ja_JP">
+
+        <meta name="twitter:site" content="@eiyunokeifu">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="ファルファル走 presented by キングダム -英雄の系譜-">
+        <meta name="twitter:description" content="【Web企画】騰となって、戦場を駆け抜けろ！キャンペーン結果に応じて無料10人登用の★4出現率が最大2倍に大進化！">
+
+        <?php
+          if (isset($config['point'])) {
+            $ogUrl = 'https://' . $config['domain'] . '/?id=' . $config['point']['stage_id'];
+            $ogImage = 'https://' . $config['domain'] . '/static/images/og/' . $config['point']['stage_id'] . '/' . $config['point']['rank'] . '.png';
+        ?>
+
+        <meta property="og:url" content="<?= $ogUrl ?>">
+        <meta property="og:image" content="<?= $ogImage ?>">
+        <meta name="twitter:image" content="<?= $ogImage ?>">
+
+        <?php
+          } else {
+            $ogUrl = 'https://' . $config['domain'] . '/';
+            $ogImage = 'https://' . $config['domain'] . '/static/images/og/common.png';
+        ?>
+
+        <meta property="og:url" content="<?= $ogUrl ?>">
+        <meta property="og:image" content="<?= $ogImage ?>">
+        <meta name="twitter:image" content="<?= $ogImage ?>">
+        <?php } ?>
+
+        <?php if ($config['stage'] == 'production') { ?>
+          <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl+ '&gtm_auth=LN0uDZV8hWKlPbn9duWkgQ&gtm_preview=env-2&gtm_cookies_win=x';f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MKGFRZF');</script>
+        <?php } else { ?>
+          <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl+ '&gtm_auth=1TfwKn6mRxalJdH5I60ZbA&gtm_preview=env-5&gtm_cookies_win=x';f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-MKGFRZF');</script>
+        <?php } ?>
+    </head>
+    <body>
+        <?php if ($config['stage'] == 'production') { ?>
+          <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKGFRZF&gtm_auth=LN0uDZV8hWKlPbn9duWkgQ&gtm_preview=env-2&gtm_cookies_win=x"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <?php } else { ?>
+          <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKGFRZF&gtm_auth=1TfwKn6mRxalJdH5I60ZbA&gtm_preview=env-5&gtm_cookies_win=x"
+          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <?php } ?>
+
+        <div id="app"></div>
+
+        <script>
+          window.config = <?= json_encode($config) ?>;
+        </script>
+        <script src="/static/build/bundle.js?v=7311101"></script>
+    </body>
+</html>

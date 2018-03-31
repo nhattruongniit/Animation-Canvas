@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #420707;
+}
+
+.stage {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.stage canvas {
+    z-index: 26;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.index .stage {
+    position: relative;
+    height: 570px;
+}

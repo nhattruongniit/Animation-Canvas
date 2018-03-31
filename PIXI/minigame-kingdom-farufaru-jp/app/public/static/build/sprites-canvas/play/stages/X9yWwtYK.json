@@ -1,0 +1,34 @@
+{
+    "frames": {
+        "boss": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 214,
+                "h": 204
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 214,
+                "h": 204
+            },
+            "sourceSize": {
+                "w": 214,
+                "h": 204
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "X9yWwtYK.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 214,
+            "h": 204
+        },
+        "scale": 1
+    }
+}

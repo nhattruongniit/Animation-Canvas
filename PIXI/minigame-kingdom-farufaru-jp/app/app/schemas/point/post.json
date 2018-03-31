@@ -1,0 +1,21 @@
+{
+  "id": "https://faru.kingdom-eiyunokeifu.com/point/post.json",
+  "limit": 60,
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "point",
+    "stage_id"
+  ],
+  "properties": {
+    "point": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 800001
+    },
+    "stage_id": {
+      "type": "string",
+      "enum": ["2X3aJhew", "aJ2CDBqV", "eT7p6uF9", "W7wUbGj9", "X9yWwtYK"]
+    }
+  }
+}

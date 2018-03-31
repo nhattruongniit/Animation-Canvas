@@ -1,0 +1,39 @@
+{
+  "urls": [
+    "/static/build/sounds/sprite.ogg",
+    "/static/build/sounds/sprite.m4a",
+    "/static/build/sounds/sprite.mp3",
+    "/static/build/sounds/sprite.ac3"
+  ],
+  "sprite": {
+    "silence": [
+      0,
+      1000,
+      true
+    ],
+    "attack-0": [
+      2000,
+      800.5895691609978
+    ],
+    "attack-1": [
+      4000,
+      889.3650793650796
+    ],
+    "bgm": [
+      6000,
+      49051.08843537415
+    ],
+    "boss": [
+      57000,
+      1471.90476190476
+    ],
+    "end": [
+      60000,
+      3620.9977324263036
+    ],
+    "start": [
+      65000,
+      1781.3605442176909
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+    "frames": {
+        "run-0": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 280,
+                "h": 170
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 280,
+                "h": 170
+            },
+            "sourceSize": {
+                "w": 280,
+                "h": 170
+            }
+        },
+        "run-1": {
+            "frame": {
+                "x": 282,
+                "y": 0,
+                "w": 280,
+                "h": 170
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 280,
+                "h": 170
+            },
+            "sourceSize": {
+                "w": 280,
+                "h": 170
+            }
+        },
+        "run-2": {
+            "frame": {
+                "x": 0,
+                "y": 172,
+                "w": 280,
+                "h": 170
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 280,
+                "h": 170
+            },
+            "sourceSize": {
+                "w": 280,
+                "h": 170
+            }
+        },
+        "run-3": {
+            "frame": {
+                "x": 282,
+                "y": 172,
+                "w": 280,
+                "h": 170
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 280,
+                "h": 170
+            },
+            "sourceSize": {
+                "w": 280,
+                "h": 170
+            }
+        },
+        "stand-0": {
+            "frame": {
+                "x": 0,
+                "y": 344,
+                "w": 280,
+                "h": 170
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 280,
+                "h": 170
+            },
+            "sourceSize": {
+                "w": 280,
+                "h": 170
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "house.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 562,
+            "h": 514
+        },
+        "scale": 1
+    }
+}

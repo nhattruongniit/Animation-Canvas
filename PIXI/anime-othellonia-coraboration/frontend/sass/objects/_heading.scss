@@ -1,0 +1,32 @@
+.o-heading {
+    position: relative;
+    margin: 0px 0 30px;
+    padding-left: 15px;
+    line-height: 22px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    &::before {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        width: 6px;
+        height: 22px;
+        background-color: #000;
+        content: '';
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .o-heading {
+        margin: 0 0 20px;
+        font-size: 17px;
+        line-height: 25px;
+        &::before {
+            width: 5px;
+            height: 25px;
+        }
+    }
+}

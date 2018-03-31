@@ -1,0 +1,26 @@
+stage: "{{ stage_sandbox }}"
+stage_user: ec2-user
+
+timeout: 5
+
+# log directory
+mysql_log_directory: "{{ log_directory }}/mysql"
+nginx_log_directory: "{{ log_directory }}/nginx"
+php_log_directory: "{{ log_directory }}/php"
+
+# mysql root password
+database_root_password: jTf3dQ)ezU
+
+databases:
+  - name: kingdom
+    user: kingdom
+    password: 1234
+
+# opcache
+opcache_validate_timestamps: On
+opcache_revalidate_freq: 0
+
+# fpm
+phpfpm_min_children: 5
+phpfpm_max_children: 10
+phpfpm_max_requests: 50

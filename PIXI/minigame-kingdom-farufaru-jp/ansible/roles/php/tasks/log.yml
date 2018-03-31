@@ -1,0 +1,14 @@
+- name: create php log directory
+  file:
+    path: "{{ php_log_directory }}"
+    state: directory
+    owner: nginx
+    group: "{{ stage_user }}"
+    mode: 0775
+
+- name: put log rotate file
+  template:
+    src: rotate.j2
+    dest: /etc/logrotate.d/php
+    mode: 0600
+    backup: yes

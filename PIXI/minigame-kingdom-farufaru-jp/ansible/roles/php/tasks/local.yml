@@ -1,0 +1,24 @@
+- name: install epel rpm
+  yum:
+    name: epel-release
+
+- name: install remi rpm
+  yum:
+    name: http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
+    state: present
+
+- name: install php modules
+  yum:
+    name: "{{ item }}"
+    enablerepo: remi-php71
+  with_items:
+    - php
+    - php-devel
+    - php-pdo
+    - php-mysql
+    - php-mbstring
+    - php-pecl-apcu
+    - php-mcrypt
+    - php-pecl-yaml
+    - php-opcache
+    - php-fpm

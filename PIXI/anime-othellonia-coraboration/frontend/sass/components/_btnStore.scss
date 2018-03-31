@@ -1,0 +1,39 @@
+.c-btnStore {
+    background: url('../images/top/bg_btnBox.jpg') no-repeat center top;
+    background-size: cover;
+    padding: 90px 0 60px;
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url('../images/top/border.png') repeat-x top left;
+        width: 100%;
+        height: 22px;
+    }
+    &__link {
+        display: block;
+        margin: 0 5px;
+        img {
+            height: 114px;
+        }
+    }
+    &--flex {
+        display: flex;
+        justify-content: center;
+        width: 750px;
+        margin: 0 auto;
+    }
+}
+
+.is-sp {
+    .c-btnStore {
+        padding: 20px 0 20px;
+        &__link {
+            img {
+                height: inherit;
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin box-shadow($x, $y, $blur, $spread, $color) {
+    -webkit-box-shadow: $x $y $blur $spread $color;
+    -moz-box-shadow: $x $y $blur $spread $color;
+    box-shadow: $x $y $blur $spread $color;
+}
+
+@mixin transition($timing, $function) {
+    -webkit-transition: all $timing $function;
+    -moz-transition: all $timing $function;
+    transition: all $timing $function;
+}
+
+@mixin spritesheet($x, $y) {
+    background-image: url('../images/common/spirtesheet.png');
+    background-repeat: no-repeat;
+    background-position: $x $y;
+    background-color: transparent;
+}
+
+@mixin sprite_1 {
+    background-image: url("../images/top/sprite_1.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-indent: -9999px;
+}

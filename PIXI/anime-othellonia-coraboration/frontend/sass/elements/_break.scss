@@ -1,0 +1,21 @@
+@media all and (min-width: 768px) {
+    .e-br {
+        &--pc {
+            display: block;
+        }
+        &--sp {
+            display: none;
+        }
+    }
+}
+
+@media all and (max-width: 767px) {
+    .e-br {
+        &--pc {
+            display: none;
+        }
+        &--sp {
+            display: block;
+        }
+    }
+}

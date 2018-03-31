@@ -1,0 +1,105 @@
+.loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 0;
+}
+
+.loading__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -52.5px;
+    margin-top: -25px;
+    width: 105px;
+    height: 50px;
+}
+
+.loading__iconItem {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+}
+
+.loading__iconItem:first-child {
+    margin-left: 0;
+}
+
+.loading__iconItem:nth-child(1) {
+    animation: animation 1.8s cubic-bezier(0.3, 0.92, 0, 1) infinite both;
+}
+
+.loading__iconItem:nth-child(2) {
+    animation: animation 1.8s cubic-bezier(0.3, 0.92, 0, 1) 0.3s infinite both;
+}
+
+.loading__iconItem:nth-child(3) {
+    animation: animation 1.8s cubic-bezier(0.3, 0.92, 0, 1) 0.6s infinite both;
+}
+
+.loading__iconText {
+    display: block;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffc117;
+    letter-spacing: 3px;
+    margin: 14px auto;
+}
+
+@keyframes animation {
+    0% {
+        transform: scale(0) rotate(0deg);
+    }
+    70% {
+        opacity: 1;
+        transform: scale(1) rotate(144deg);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1) rotate(144deg);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #bf001f url(../images/onepiece/waveBg.png);
+    background-size: 75px 51px;
+    color: #fff;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-feature-settings: "palt" 1;
+}
+
+.stage {
+    width: 100%;
+    height: 570px;
+    position: relative;
+    overflow: hidden;
+}
+
+.stage canvas {
+    z-index: 26;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.index .stage {
+    position: relative;
+    height: 570px;
+}
+
+
+/*===== folder onepiece ========*/

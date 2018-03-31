@@ -1,0 +1,113 @@
+extends ../component/layout.component.pug
+block stylesheets
+    - link_stylesheet = "";
+block toFile
+    - link_toFile = "";
+
+block content
+    .bg_black
+    .logo_fix
+        img(src="assets/images/top/logo.png" alt="")
+    main.c-mainBg
+        .c-mainBg__inner
+            .c-mainBg__info
+                h2.c-mainBg__info__title
+                .c-mainBg__info__wrapTime
+                    h3.c-mainBg__info__time
+                .c-mainBg__info__store
+                    a.c-mainBg__info__store--iconGame()
+                    a.c-mainBg__info__store--iosStore.forIos(href="https://c1.app-adforce.jp/ad/p/r?_site=52784&_article=319619&_link=9400851")
+                    a.c-mainBg__info__store--ggStore.forAndroid(href="https://c1.app-adforce.jp/ad/p/r?_site=52786&_article=319622&_link=9400896")
+                .c-mainBg__info__startGame
+                    a.c-mainBg__info__btn.forIos(href="mobage-jp-12020519://?_ad_code=ADDNNX02E00050")
+                    a.c-mainBg__info__btn.forAndroid(href="mobage-jp-12020519://?_ad_code=ADDNNX02E00050")
+    .o-container.c-mainContent
+        .c-mainContent__bordertop
+        section.c-videoPromo
+            h3.c-videoPromo__title
+                img(src="assets/images/top/h3_01.png" alt="")
+            .c-videoPromo__iframe
+                iframe(width="100%" height="388" src="https://www.youtube.com/embed/p-iCmOo3gUo" frameborder="0" allowfullscreen)
+        section.c-pointSection#section1
+            h3.c-pointSection__title#point1
+                img.charPoint.iconNumb#iconPoint1(src="assets/images/top/point1.png" alt="")
+                img.charPoint.textPoint#textPoint1(src="assets/images/top/text_point1.png" alt="")
+                img.charPoint.lightPoint#lightPoint1(src="assets/images/top/light_point1.png" alt="")
+            .c-pointSection__content.c-pointSection__content--section1
+                img.charPoint#point1_char1(src="assets/images/top/char1_point1.png" alt="")
+                img.charPoint#point1_char2(src="assets/images/top/char2_point1.png" alt="")
+                img.charPoint#point1_char3(src="assets/images/top/char3_point1.png" alt="")
+                img.charPoint#point1_char4(src="assets/images/top/char4_point1.png" alt="")
+                img.charPoint#point1_light(src="assets/images/top/sunshine_point1.png" alt="")
+                .c-pointSection__content__info
+                    p
+                        img(src="assets/images/top/capcha_point1.png" alt="")
+                    p
+                        img(src="assets/images/top/time_point1.png" alt="")
+                    p.c-pointSection__text ※詳しい内容については該当のゲーム内ニュース公開後にご確認ください。
+        section.c-pointSection#section2
+            h3.c-pointSection__title#point2
+                img.charPoint.iconNumb#iconPoint2(src="assets/images/top/point2.png" alt="")
+                img.charPoint.textPoint#textPoint2(src="assets/images/top/text_point2.png" alt="")
+                img.charPoint.lightPoint#lightPoint2(src="assets/images/top/light_point1.png" alt="")
+            .c-pointSection__content.c-pointSection__content--section2
+                img.charPoint#point2_char1(src="assets/images/top/char1_point2.png" alt="")
+                img.charPoint#point2_char2(src="assets/images/top/char2_point2.png" alt="")
+                img.charPoint#point2_char3(src="assets/images/top/char3_point2.png" alt="")
+                .c-pointSection__content__info
+                    p
+                        img(src="assets/images/top/capcha_point2.png" alt="")
+                    p
+                        img(src="assets/images/top/time_point2.png" alt="")
+                    p.c-pointSection__text ※詳しい内容については該当のゲーム内ニュース公開後にご確認ください。
+        section.c-pointSection#section3
+            h3.c-pointSection__title#point3
+                img.charPoint.iconNumb#iconPoint3(src="assets/images/top/point3.png" alt="")
+                img.charPoint.textPoint#textPoint3(src="assets/images/top/text_point3.png" alt="")
+                img.charPoint.lightPoint#lightPoint3(src="assets/images/top/light_point1.png" alt="")
+            .c-pointSection__content.c-pointSection__content--section3
+                img.charPoint#point3_char1(src="assets/images/top/char1_point3.png" alt="")
+                img.charPoint#point3_char2(src="assets/images/top/char2_point3.png" alt="")
+                .c-pointSection__content__info
+                    p
+                        img(src="assets/images/top/capcha_point3.png" alt="")
+                    p
+                        img(src="assets/images/top/time_point3.png" alt="")
+                    p.c-pointSection__text ※詳しい内容については該当のゲーム内ニュース公開後にご確認ください。  
+        section.c-pointSection
+            h3.c-pointSection__title--point4
+                img.charPoint(src="assets/images/top/text_point4.png" alt="")
+            .c-pointSection__frame
+                img.charPoint(src="assets/images/top/banner_01.png" alt="")
+            .c-pointSection__frame
+                img.charPoint(src="assets/images/top/banner_01.png" alt="")
+            p.c-pointSection__text ※詳しい内容については該当のゲーム内ニュース公開後にご確認ください。 
+    .o-container.c-mainModal
+        .c-mainModal__bordertop
+        .c-mainModal__box.c-mainModal__box--box1
+            a.c-mainModal__box__btn1#modalBox_1(href="javascript:void(0)")
+                img(src="assets/images/top/btn1.png" alt="")
+            a.c-mainModal__box__btn2(href="http://www.capcom.co.jp/game/gyakutensaiban/" target="_blank")
+                img(src="assets/images/top/btn2.png" alt="")
+            .c-mainModal__box__iframe
+                .c-mainModal__box__iframewrap
+                    iframe(width="100%" height="326" src="https://www.youtube.com/embed/G7BdJK6TLog" frameborder="0" allow="" allowfullscreen)
+        .c-mainModal__box.c-mainModal__box--box2
+            a.c-mainModal__box__btn1#modalBox_2(href="javascript:void(0)")
+                img(src="assets/images/top/btn3.png" alt="")
+            a.c-mainModal__box__btn2(href="https://www.othellonia.com/" target="_blank")
+                img(src="assets/images/top/btn4.png" alt="")
+            .c-mainModal__box__iframe
+                .c-mainModal__box__iframewrap
+                    iframe(width="100%" height="326" src="https://www.youtube.com/embed/p-iCmOo3gUo" frameborder="0" allow="" allowfullscreen)
+        h3.c-mainModal__title 
+            img(src="assets/images/top/title_twitter.png" alt="")
+        .c-mainModal__banner
+            a(href="https://xn--cckp5c6czi2302avwxa.gamematome.jp/game/964/wiki/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3_%E9%80%86%E8%BB%A2%E8%A3%81%E5%88%A4%C3%97%E9%80%86%E8%BB%A2%E3%82%AA%E3%82%BB%E3%83%AD%E3%83%8B%E3%82%A2%E3%82%B3%E3%83%A9%E3%83%9C%E8%A8%98%E5%BF%B5%EF%BC%81Twitter%E3%83%95%E3%82%A9%E3%83%AD%E3%83%BC%EF%BC%86RT%E3%81%A7%E3%82%B0%E3%83%83%E3%82%BA%E3%83%97%E3%83%AC%E3%82%BC%E3%83%B3%E3%83%88%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3" target="_blank")
+                img(src="assets/images/top/banner_03.png" alt="")
+
+
+
+
+
+

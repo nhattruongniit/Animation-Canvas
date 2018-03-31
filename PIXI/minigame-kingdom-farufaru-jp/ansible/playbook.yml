@@ -1,0 +1,18 @@
+- hosts: local
+  become: yes
+  user: vagrant
+  roles:
+    - base
+    - database
+    - nginx
+    - php
+
+- hosts: sandbox
+  become: yes
+  user: ec2-user
+  roles:
+    - swap
+    - base
+    - database
+    - nginx
+    - php

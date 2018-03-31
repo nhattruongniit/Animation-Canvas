@@ -1,0 +1,87 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+*/
+$btn-close-x: 180px;
+$btn-close-y: 222px;
+$btn-close-offset-x: -180px;
+$btn-close-offset-y: -222px;
+$btn-close-width: 110px;
+$btn-close-height: 110px;
+$btn-close-total-width: 400px;
+$btn-close-total-height: 400px;
+$btn-close-image: '/static/build/sprites-html/play.png';
+$btn-close: 180px 222px -180px -222px 110px 110px 400px 400px '/static/build/sprites-html/play.png';
+$btn-play-sound-off-x: 222px;
+$btn-play-sound-off-y: 0px;
+$btn-play-sound-off-offset-x: -222px;
+$btn-play-sound-off-offset-y: 0px;
+$btn-play-sound-off-width: 178px;
+$btn-play-sound-off-height: 178px;
+$btn-play-sound-off-total-width: 400px;
+$btn-play-sound-off-total-height: 400px;
+$btn-play-sound-off-image: '/static/build/sprites-html/play.png';
+$btn-play-sound-off: 222px 0px -222px 0px 178px 178px 400px 400px '/static/build/sprites-html/play.png';
+$btn-play-sound-on-x: 0px;
+$btn-play-sound-on-y: 222px;
+$btn-play-sound-on-offset-x: 0px;
+$btn-play-sound-on-offset-y: -222px;
+$btn-play-sound-on-width: 178px;
+$btn-play-sound-on-height: 178px;
+$btn-play-sound-on-total-width: 400px;
+$btn-play-sound-on-total-height: 400px;
+$btn-play-sound-on-image: '/static/build/sprites-html/play.png';
+$btn-play-sound-on: 0px 222px 0px -222px 178px 178px 400px 400px '/static/build/sprites-html/play.png';
+$btn-play-x: 0px;
+$btn-play-y: 0px;
+$btn-play-offset-x: 0px;
+$btn-play-offset-y: 0px;
+$btn-play-width: 220px;
+$btn-play-height: 220px;
+$btn-play-total-width: 400px;
+$btn-play-total-height: 400px;
+$btn-play-image: '/static/build/sprites-html/play.png';
+$btn-play: 0px 0px 0px 0px 220px 220px 400px 400px '/static/build/sprites-html/play.png';
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}

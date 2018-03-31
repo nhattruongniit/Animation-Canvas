@@ -1,0 +1,17 @@
+.o-container {
+    margin: 0 auto;
+    width: 750px;
+}
+
+@media screen and (max-width: 767px) {
+    .o-container {
+        &--medium {
+            margin: 0 10px;
+        }
+        &--tiny {
+            margin: 0 25px;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {}

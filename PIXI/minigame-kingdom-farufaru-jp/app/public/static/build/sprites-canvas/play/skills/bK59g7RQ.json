@@ -1,0 +1,154 @@
+{
+    "frames": {
+        "bK59g7RQ-image": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 808,
+                "h": 400
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 808,
+                "h": 400
+            },
+            "sourceSize": {
+                "w": 808,
+                "h": 400
+            }
+        },
+        "bK59g7RQ-panel": {
+            "frame": {
+                "x": 810,
+                "y": 424,
+                "w": 175,
+                "h": 160
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 175,
+                "h": 160
+            },
+            "sourceSize": {
+                "w": 175,
+                "h": 160
+            }
+        },
+        "bK59g7RQ-skill0": {
+            "frame": {
+                "x": 0,
+                "y": 402,
+                "w": 229,
+                "h": 210
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 229,
+                "h": 210
+            },
+            "sourceSize": {
+                "w": 229,
+                "h": 210
+            }
+        },
+        "bK59g7RQ-skill1": {
+            "frame": {
+                "x": 231,
+                "y": 402,
+                "w": 229,
+                "h": 210
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 229,
+                "h": 210
+            },
+            "sourceSize": {
+                "w": 229,
+                "h": 210
+            }
+        },
+        "bK59g7RQ-skill2": {
+            "frame": {
+                "x": 462,
+                "y": 402,
+                "w": 229,
+                "h": 210
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 229,
+                "h": 210
+            },
+            "sourceSize": {
+                "w": 229,
+                "h": 210
+            }
+        },
+        "bK59g7RQ-skill3": {
+            "frame": {
+                "x": 810,
+                "y": 0,
+                "w": 229,
+                "h": 210
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 229,
+                "h": 210
+            },
+            "sourceSize": {
+                "w": 229,
+                "h": 210
+            }
+        },
+        "bK59g7RQ-skill4": {
+            "frame": {
+                "x": 810,
+                "y": 212,
+                "w": 229,
+                "h": 210
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 229,
+                "h": 210
+            },
+            "sourceSize": {
+                "w": 229,
+                "h": 210
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "bK59g7RQ.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1039,
+            "h": 612
+        },
+        "scale": 1
+    }
+}

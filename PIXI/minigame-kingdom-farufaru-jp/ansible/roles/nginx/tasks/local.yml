@@ -1,0 +1,26 @@
+- name: install open_ssl
+  yum:
+    name: "{{ item }}"
+  with_items:
+    - mod_ssl
+
+- name: create dir for certs
+  file:
+    path: "{{ ssl_directory }}"
+    state: directory
+    owner: root
+    group: root
+    mode: 0755
+  register: certs_change
+
+- name: create private key
+  shell: "openssl genrsa -out {{ ssl_private_key }} 2048"
+  when: certs_change.changed
+
+- name: create csr
+  shell: "openssl req -new -sha256 -subj \"/C=JP/ST=Tokyo/L=Shibuya-ku/O=ORDER Inc/CN=*.order.local\" -key {{ ssl_private_key }} -out {{ ssl_csr }}"
+  when: certs_change.changed
+
+- name: create certs pem
+  shell: "openssl req -nodes -x509 -sha256 -days 3650 -in {{ ssl_csr }} -key {{ ssl_private_key }} -out {{ ssl_public_key }}"
+  when: certs_change.changed

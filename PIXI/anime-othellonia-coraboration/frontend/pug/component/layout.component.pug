@@ -1,0 +1,79 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(name='viewport', content='width=750, user-scalable=no')
+  title 逆転裁判×逆転オセロニア コラボ特設サイト | 逆転オセロニア
+  meta(name='description', content="逆転裁判フェスタ '18開催！コラボ期間にログインするだけでコラボキャラ確定無料ガチャが引ける！！その他、新闘化先解放や新コラボキャラ登場など激超イベント目白押し！詳しくは特設サイトをチェック！")
+  // facebook OG
+  meta(property='og:title', content='逆転裁判×逆転オセロニア コラボ特設サイト | 逆転オセロニア')
+  meta(property='og:type', content='website"')
+  meta(property='og:url', content='https://cpn-othellonia.com/collabo/gyakutensaiban/')
+  meta(property='og:image', content='https://otdev.cpn-othellonia.com/collabo/gyakutensaiban/assets/images/common/ogp_img.jpg')
+  meta(property='og:site_name', content='逆転オセロニア')
+  meta(property='og:description', content="逆転裁判フェスタ '18開催！コラボ期間にログインするだけでコラボキャラ確定無料ガチャが引ける！！その他、新闘化先解放や新コラボキャラ登場など激超イベント目白押し！詳しくは特設サイトをチェック！")
+  // twitter OG
+  meta(name='twitter:card', content='summary_large_image')
+  meta(name='twitter:title', content='逆転裁判×逆転オセロニア コラボ特設サイト | 逆転オセロニア')
+  meta(name='twitter:description', content="逆転裁判フェスタ '18開催！コラボ期間にログインするだけでコラボキャラ確定無料ガチャが引ける！！その他、新闘化先解放や新コラボキャラ登場など激超イベント目白押し！詳しくは特設サイトをチェック！")
+  meta(name='twitter:img:src', content='https://otdev.cpn-othellonia.com/collabo/gyakutensaiban/assets/images/common/ogp_img.jpg')
+  meta(name='twitter:site', content='@Othellonia_info')
+  link(rel='icon', type='image/png', href='assets/images/icon/favicon_16x16.png', sizes='16x16')
+  link(rel='icon', type='image/png', href='assets/images/icon/favicon_32x32.png', sizes='32x32')
+  link(rel='icon', type='image/png', href='assets/images/icon/favicon_64x64.png', sizes='64x64')
+  link(rel='shortcut icon', href='assets/images/icon/favicon.ico', type='image/x-icon')
+  link(rel='apple-touch-icon', href='/apple-touch-icon.png')
+  link(rel='apple-touch-icon', sizes='57x57', href='assets/images/icon/apple-touch-icon-57x57.png')
+  link(rel='apple-touch-icon', sizes='72x72', href='assets/images/icon/apple-touch-icon-72x72.png')
+  link(rel='apple-touch-icon', sizes='76x76', href='assets/images/icon/apple-touch-icon-76x76.png')
+  link(rel='apple-touch-icon', sizes='114x114', href='assets/images/icon/apple-touch-icon-114x114.png')
+  link(rel='apple-touch-icon', sizes='120x120', href='assets/images/icon/apple-touch-icon-120x120.png')
+  link(rel='apple-touch-icon', sizes='144x144', href='assets/images/icon/apple-touch-icon-144x144.png')
+  link(rel='apple-touch-icon', sizes='152x152', href='assets/images/icon/apple-touch-icon-152x152.png')
+  link(rel='apple-touch-icon', sizes='180x180', href='assets/images/icon/apple-touch-icon-180x180.png')
+  link(rel="stylesheet", href="assets/css/common.css")
+  block stylesheets
+  link(rel="stylesheet", href=link_stylesheet)
+  block moreFile
+  link(rel="stylesheet", href=link_moreFile)
+  script.
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    (function(){
+      var url = new URL(window.location.href);
+      ga('create', 'UA-80214416-12', {'userId': url.searchParams.get("id") });
+      ga('send', 'pageview');
+      ga('send', 'event', 'ページビュー', 'アクセス', 'トップ', 1);
+    })();
+
+
+
+
+body.js-body
+    main#wrapper.wrapper
+      block content
+      include ../component/footer.component.pug
+    .overlay
+    .c_modal#modal_pop1
+      .c_modal__wrap
+        img(src="assets/images/top/modal_2.png" alt="")
+        p.c_modal__closeBtn
+          img(src="assets/images/top/btn_close.png" alt="")
+    .c_modal#modal_pop2
+      .c_modal__wrap
+        img(src="assets/images/top/modal_1.png" alt="")
+        p.c_modal__closeBtn
+          img(src="assets/images/top/btn_close.png" alt="")    
+block toFile
+script(type="text/javascript" src=link_toFile + "assets/js/jquery.min.js")
+script(type="text/javascript" src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js")
+script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.7.1/pixi.min.js")
+script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pixi-filters/1.0.8/filters.min.js")
+script(type="text/javascript" src=link_toFile + "assets/js/CSSPlugin.min.js")
+script(type="text/javascript" src=link_toFile + "assets/js/EasePack.min.js")
+script(type="text/javascript" src=link_toFile + "assets/js/TweenLite.min.js")
+script(type="text/javascript" src=link_toFile + "assets/js/main.js")
+script(type="text/javascript" src=link_toFile + "assets/js/term.js") 
+

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "justinrainbow/json-schema": "^5.2",
+        "rize/uri-template": "^0.3.2"
+    }
+}

@@ -1,0 +1,17 @@
+- include: log.yml
+- include: "{{ stage }}.yml"
+
+- name: put my ini file
+  template:
+    src: templates/php.ini.j2
+    dest: /etc/php.d/my-php.ini
+  notify: restart php-fpm
+
+- name: put custom ini file for opcache
+  template:
+    src: opcache.ini.j2
+    dest: /etc/php.d/my-opcache.ini
+  notify: restart php-fpm
+
+- include: phalcon.yml
+- include: php-fpm.yml

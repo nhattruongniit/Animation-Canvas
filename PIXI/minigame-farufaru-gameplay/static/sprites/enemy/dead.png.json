@@ -1,0 +1,114 @@
+{
+    "frames": {
+        "effect1-0": {
+            "frame": {
+                "x": 110,
+                "y": 135,
+                "w": 95,
+                "h": 99
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 95,
+                "h": 99
+            },
+            "sourceSize": {
+                "w": 95,
+                "h": 99
+            }
+        },
+        "effect1-1": {
+            "frame": {
+                "x": 0,
+                "y": 135,
+                "w": 108,
+                "h": 114
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 108,
+                "h": 114
+            },
+            "sourceSize": {
+                "w": 108,
+                "h": 114
+            }
+        },
+        "effect1-2": {
+            "frame": {
+                "x": 113,
+                "y": 0,
+                "w": 112,
+                "h": 130
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 130
+            },
+            "sourceSize": {
+                "w": 112,
+                "h": 130
+            }
+        },
+        "effect1-3": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 111,
+                "h": 133
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 111,
+                "h": 133
+            },
+            "sourceSize": {
+                "w": 111,
+                "h": 133
+            }
+        },
+        "effect1-4": {
+            "frame": {
+                "x": 227,
+                "y": 0,
+                "w": 125,
+                "h": 114
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 125,
+                "h": 114
+            },
+            "sourceSize": {
+                "w": 125,
+                "h": 114
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "dead.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 352,
+            "h": 249
+        },
+        "scale": 1
+    }
+}

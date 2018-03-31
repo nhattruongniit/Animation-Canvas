@@ -1,0 +1,18 @@
+@mixin holizontalCenter($sprite) {
+  position: absolute;
+  left: 50%;
+  margin-left: nth($sprite, 5) / -2;
+}
+
+@mixin spriteWithCache($sprite, $ratio: 1) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image}#{$cacheVersion});
+  $sprite-offset-x: nth($sprite, 3) / $ratio;
+  $sprite-offset-y: nth($sprite, 4) / $ratio;
+  background-position: $sprite-offset-x  $sprite-offset-y;
+  $background-width: nth($sprite, 7) / $ratio;
+  $background-height: nth($sprite, 8) / $ratio;
+  background-size: $background-width $background-height;
+  width: nth($sprite, 5) / $ratio;
+  height: nth($sprite, 6) / $ratio;
+}

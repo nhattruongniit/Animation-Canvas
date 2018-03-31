@@ -1,0 +1,8 @@
+{
+  "id": "https://faru.kingdom-eiyunokeifu.com/point/get.json",
+  "limit": -1,
+  "type": "object",
+  "additionalProperties": false,
+  "required": [],
+  "properties": {}
+}

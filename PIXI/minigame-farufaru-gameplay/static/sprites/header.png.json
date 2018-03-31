@@ -1,0 +1,154 @@
+{
+    "frames": {
+        "bar-base": {
+            "frame": {
+                "x": 196,
+                "y": 137,
+                "w": 540,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 540,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 540,
+                "h": 24
+            }
+        },
+        "bar-color": {
+            "frame": {
+                "x": 196,
+                "y": 163,
+                "w": 540,
+                "h": 24
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 540,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 540,
+                "h": 24
+            }
+        },
+        "bg-top": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 750,
+                "h": 135
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 750,
+                "h": 135
+            },
+            "sourceSize": {
+                "w": 750,
+                "h": 135
+            }
+        },
+        "boost": {
+            "frame": {
+                "x": 0,
+                "y": 137,
+                "w": 194,
+                "h": 76
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 194,
+                "h": 76
+            },
+            "sourceSize": {
+                "w": 194,
+                "h": 76
+            }
+        },
+        "icon-current": {
+            "frame": {
+                "x": 0,
+                "y": 215,
+                "w": 86,
+                "h": 86
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 86,
+                "h": 86
+            },
+            "sourceSize": {
+                "w": 86,
+                "h": 86
+            }
+        },
+        "icon-goal": {
+            "frame": {
+                "x": 88,
+                "y": 215,
+                "w": 86,
+                "h": 86
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 86,
+                "h": 86
+            },
+            "sourceSize": {
+                "w": 86,
+                "h": 86
+            }
+        },
+        "icon-start": {
+            "frame": {
+                "x": 176,
+                "y": 215,
+                "w": 86,
+                "h": 86
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 86,
+                "h": 86
+            },
+            "sourceSize": {
+                "w": 86,
+                "h": 86
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "header.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 750,
+            "h": 301
+        },
+        "scale": 1
+    }
+}

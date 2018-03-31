@@ -1,0 +1,15 @@
+{
+    "extends": "airbnb-base",
+    "plugins": [
+      "html"
+    ],
+    "settings": {
+    },
+    "rules": {
+      "no-plusplus": "off",
+      "no-param-reassign": "off",
+      "no-continue": "off",
+      "class-methods-use-this": "off",
+      "no-cond-assign": "off"
+    }
+}

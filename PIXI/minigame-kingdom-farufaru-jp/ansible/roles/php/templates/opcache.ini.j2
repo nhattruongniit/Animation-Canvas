@@ -1,0 +1,8 @@
+opcache.enable = 1
+opcache.memory_consumption = 128M
+opcache.interned_strings_buffer = 4
+opcache.max_accelerated_files = 2000
+opcache.validate_timestamps = {{ opcache_validate_timestamps }}
+opcache.revalidate_freq = {{ opcache_revalidate_freq }}
+opcache.error_log = {{ php_log_directory }}/error-opcache.log
+opcache.log_verbosity_level = 1

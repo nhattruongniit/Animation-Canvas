@@ -1,0 +1,20 @@
+{
+    "name": "minigame-question-card",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./src/index.js",
+    "scripts": {
+        "serve": "webpack-dev-server",
+        "build": "webpack"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "createjs": "^1.0.1",
+        "createjs-module": "^0.8.3",
+        "createjs-preloadjs": "^0.6.3",
+        "preload-js": "^0.6.3",
+        "webpack": "^3.10.0",
+        "webpack-dev-server": "^2.11.1"
+    }
+}

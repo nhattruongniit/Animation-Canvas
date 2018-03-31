@@ -1,0 +1,7 @@
+- name: create app directory
+  file:
+    path: /var/www/app
+    state: directory
+    owner: "{{ stage_user }}"
+    group: nginx
+    mode: 0755

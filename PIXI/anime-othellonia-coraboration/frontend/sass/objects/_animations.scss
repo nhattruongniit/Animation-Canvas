@@ -1,0 +1,19 @@
+@keyframes o-animations__gallery--slideshow {
+    0% {
+        opacity: 0;
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+    15% {
+        opacity: 1;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+    50% {
+        opacity: 1
+    }
+    100%,
+    65% {
+        opacity: 0
+    }
+}

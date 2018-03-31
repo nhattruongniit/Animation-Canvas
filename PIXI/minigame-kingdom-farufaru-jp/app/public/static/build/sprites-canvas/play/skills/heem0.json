@@ -1,0 +1,54 @@
+{
+    "frames": {
+        "heem0-image": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 750,
+                "h": 380
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 750,
+                "h": 380
+            },
+            "sourceSize": {
+                "w": 750,
+                "h": 380
+            }
+        },
+        "heem0-panel": {
+            "frame": {
+                "x": 0,
+                "y": 382,
+                "w": 175,
+                "h": 160
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 175,
+                "h": 160
+            },
+            "sourceSize": {
+                "w": 175,
+                "h": 160
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "heem0.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 750,
+            "h": 542
+        },
+        "scale": 1
+    }
+}

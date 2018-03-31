@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Step to step webpack</title>
+</head>
+
+<body>
+    <div id="myCanvas"></div>
+
+    <script type="text/javascript" src="../../libs/pixi.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript">
+        var type = "WebGL";
+
+        if (!PIXI.utils.isWebGLSupported()) {
+            type = "canvas";
+        }
+
+        PIXI.utils.sayHello(type);
+    </script>
+</body>
+
+</html>

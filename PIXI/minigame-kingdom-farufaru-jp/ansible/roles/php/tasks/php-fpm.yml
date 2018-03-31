@@ -1,0 +1,11 @@
+- name: put php-fpm ini file
+  template:
+    src: php-fpm.conf.j2
+    dest: /etc/php-fpm.d/www.conf
+  notify: restart php-fpm
+
+- name: start php-fpm
+  service:
+    name: php-fpm
+    state: started
+    enabled: yes

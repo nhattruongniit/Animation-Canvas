@@ -1,0 +1,56 @@
+- name: install mysql rpm
+  yum:
+    name: https://dev.mysql.com/get/mysql57-community-release-el6-9.noarch.rpm
+    state: present
+
+- name: install mysql
+  yum:
+    name: "{{ item }}"
+    enablerepo: mysql57-community
+  with_items:
+    - mysql
+    - mysql-devel
+    - mysql-server
+    - MySQL-python
+
+- name: create directory /etc/mysql
+  file:
+    path: /etc/mysql
+    state: directory
+    mode: 0755
+
+- name: create log directory
+  file:
+    path: "{{ mysql_log_directory }}"
+    state: directory
+    owner: mysql
+    group: "{{ stage_user }}"
+    mode: 0755
+
+- name: add line /etc/my.cnf
+  lineinfile:
+    dest: /etc/my.cnf
+    line: "{{ item }}"
+  with_items:
+    - "character-set-server=utf8mb4"
+
+- name: put /etc/mysql/my.cnf
+  template:
+    backup: yes
+    src: etc.mysql.my.cnf.j2
+    dest: /etc/mysql/my.cnf
+    mode: 0600
+  notify: restart mysqld
+
+- name: put log rotate file
+  template:
+    backup: yes
+    src: rotate.j2
+    dest: /etc/logrotate.d/mysql
+    mode: 0600
+
+- name: start mysqld
+  service:
+    name: mysqld
+    state: started
+    enabled: yes

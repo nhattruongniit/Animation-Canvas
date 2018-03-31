@@ -1,0 +1,165 @@
+.logo_fix {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 120;
+    img {
+        max-width: inherit;
+    }
+}
+
+#slideshow {
+    z-index: 90;
+    width: 1280px;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.c-mainBg {
+    margin-top: -155px;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 100;
+    &__inner {
+        width: 960px;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+    &__logo {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        text-align: center;
+        z-index: 100;
+        opacity: 0;
+        transform: scaleX(2) scaleY(2);
+    }
+    &__info {
+        background: url('../images/top/bg_wood.png') no-repeat center top;
+        background-size: 100% 100%;
+        padding-top: 1px;
+        width: 960px;
+        height: 480px;
+        z-index: 90;
+        text-align: center;
+        &__title {
+            @include sprite_1;
+            background-position: -10px -101px;
+            width: 580px;
+            height: 120px;
+            margin: -47px auto 0;
+        }
+        &__time {
+            @include sprite_1;
+            background-position: -10px -0px;
+            width: 767px;
+            height: 91px;
+            margin: 0 auto;
+        }
+        &__store {
+            display: flex;
+            justify-content: space-around;
+            padding: 0 75px;
+            &--iconGame {
+                @include sprite_1;
+                background-position: -600px -101px;
+                width: 98px;
+                height: 98px;
+            }
+            &--iosStore {
+                @include sprite_1;
+                background-position: -356px -351px;
+                width: 333px;
+                height: 99px;
+            }
+            &--ggStore {
+                @include sprite_1;
+                background-position: -10px -351px;
+                width: 336px;
+                height: 100px;
+            }
+        }
+        &__btn {
+            display: block;
+            @include sprite_1;
+            background-position: -10px -231px;
+            width: 570px;
+            height: 110px;
+            margin: 40px auto 0;
+        }
+        &__startGame {
+            display: none;
+        }
+    }
+}
+
+.bg_black {
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.is-pc {
+    .c-mainBg {
+        &__info {
+            &__wrapTime {
+                background: url('../images/top/bg_text.png') no-repeat center top;
+                background-size: 100% 100%;
+                width: 844px;
+                margin: 0 auto;
+                padding: 20px 0 27px;
+                margin: 35px auto 35px;
+            }
+        }
+    }
+}
+
+.is-sp {
+    .c-mainBg {
+        &__inner {
+            width: 750px;
+        }
+        &__info {
+            background: url('../images/top/bg_wood@sp.png') no-repeat center top;
+            background-size: 100% 100%;
+            width: 690px;
+            height: 660px;
+            margin: 0 auto;
+            &__time {
+                @include sprite_1;
+                background-position: -10px -458px;
+                width: 511px;
+                height: 140px;
+                margin: 55px auto 55px;
+            }
+            &__store {
+                padding: 0 112px;
+            }
+            &__btn {
+                margin-top: 30px;
+            }
+            &__startGame {
+                display: block;
+            }
+        }
+        #light1 {
+            left: -45px;
+        }
+        #light2 {
+            left: 20px;
+        }
+    }
+    .mainChara--right {
+        margin-right: -102px;
+    }
+    .mainChara--left {
+        margin-left: -113px;
+    }
+}

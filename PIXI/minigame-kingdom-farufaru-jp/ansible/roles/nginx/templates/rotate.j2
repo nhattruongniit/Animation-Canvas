@@ -1,0 +1,12 @@
+{{ nginx_log_directory }}/*.log {
+  daily
+  rotate 30
+  ifempty
+  missingok
+  dateext
+  nocompress
+  create 644 nginx {{ stage_user }}
+  postrotate
+    [ ! -f /var/run/nginx.pid ] || kill -USR1 `cat /var/run/nginx.pid`
+  endscript
+}

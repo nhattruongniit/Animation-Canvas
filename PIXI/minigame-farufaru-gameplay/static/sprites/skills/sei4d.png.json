@@ -1,0 +1,54 @@
+{
+    "frames": {
+        "image": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 750,
+                "h": 382
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 750,
+                "h": 382
+            },
+            "sourceSize": {
+                "w": 750,
+                "h": 382
+            }
+        },
+        "panel": {
+            "frame": {
+                "x": 0,
+                "y": 384,
+                "w": 175,
+                "h": 160
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 175,
+                "h": 160
+            },
+            "sourceSize": {
+                "w": 175,
+                "h": 160
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "sei4d.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 750,
+            "h": 544
+        },
+        "scale": 1
+    }
+}

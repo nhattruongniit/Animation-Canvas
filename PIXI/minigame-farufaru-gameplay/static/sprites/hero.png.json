@@ -1,0 +1,134 @@
+{
+    "frames": {
+        "attack-0": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 234,
+                "h": 240
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 234,
+                "h": 240
+            },
+            "sourceSize": {
+                "w": 234,
+                "h": 240
+            }
+        },
+        "attack-1": {
+            "frame": {
+                "x": 236,
+                "y": 0,
+                "w": 234,
+                "h": 240
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 234,
+                "h": 240
+            },
+            "sourceSize": {
+                "w": 234,
+                "h": 240
+            }
+        },
+        "attack-2": {
+            "frame": {
+                "x": 472,
+                "y": 0,
+                "w": 234,
+                "h": 240
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 234,
+                "h": 240
+            },
+            "sourceSize": {
+                "w": 234,
+                "h": 240
+            }
+        },
+        "attack-3": {
+            "frame": {
+                "x": 0,
+                "y": 242,
+                "w": 234,
+                "h": 240
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 234,
+                "h": 240
+            },
+            "sourceSize": {
+                "w": 234,
+                "h": 240
+            }
+        },
+        "attack-4": {
+            "frame": {
+                "x": 236,
+                "y": 242,
+                "w": 234,
+                "h": 240
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 234,
+                "h": 240
+            },
+            "sourceSize": {
+                "w": 234,
+                "h": 240
+            }
+        },
+        "attack-5": {
+            "frame": {
+                "x": 472,
+                "y": 242,
+                "w": 234,
+                "h": 240
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 234,
+                "h": 240
+            },
+            "sourceSize": {
+                "w": 234,
+                "h": 240
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "hero.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 706,
+            "h": 482
+        },
+        "scale": 1
+    }
+}

@@ -1,0 +1,8 @@
+stage_local: local
+stage_sandbox: sandbox
+stage_dev: development
+stage_pro: production
+
+# log directory
+log_directory: /var/log
+nginx_log_directory: "{{ log_directory }}/nginx"

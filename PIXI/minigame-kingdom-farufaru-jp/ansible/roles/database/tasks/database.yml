@@ -1,0 +1,23 @@
+- name: delete anonymos users
+  mysql_user:
+    name: ""
+    host: "{{ item }}"
+    state: absent
+  with_items:
+    - localhost
+    - localhost.localdomain
+
+- name: create database for order
+  mysql_db:
+    db: "{{ item.name }}"
+    state: present
+    encoding: utf8mb4
+  with_items: "{{ databases }}"
+
+- name: create user for php
+  mysql_user:
+    name: "{{ item.user }}"
+    password: "{{ item.password }}"
+    host: localhost
+    priv: "{{ item.user }}.*:ALL"
+  with_items: "{{ databases }}"

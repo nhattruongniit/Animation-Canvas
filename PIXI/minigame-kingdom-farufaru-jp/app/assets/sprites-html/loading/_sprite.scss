@@ -1,0 +1,127 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+*/
+$loading-faru-x: 0px;
+$loading-faru-y: 524px;
+$loading-faru-offset-x: 0px;
+$loading-faru-offset-y: -524px;
+$loading-faru-width: 124px;
+$loading-faru-height: 80px;
+$loading-faru-total-width: 724px;
+$loading-faru-total-height: 604px;
+$loading-faru-image: '/static/build/sprites-html/loading.png';
+$loading-faru: 0px 524px 0px -524px 124px 80px 724px 604px '/static/build/sprites-html/loading.png';
+$loading-text-x: 126px;
+$loading-text-y: 524px;
+$loading-text-offset-x: -126px;
+$loading-text-offset-y: -524px;
+$loading-text-width: 244px;
+$loading-text-height: 32px;
+$loading-text-total-width: 724px;
+$loading-text-total-height: 604px;
+$loading-text-image: '/static/build/sprites-html/loading.png';
+$loading-text: 126px 524px -126px -524px 244px 32px 724px 604px '/static/build/sprites-html/loading.png';
+$loading0-x: 0px;
+$loading0-y: 0px;
+$loading0-offset-x: 0px;
+$loading0-offset-y: 0px;
+$loading0-width: 240px;
+$loading0-height: 260px;
+$loading0-total-width: 724px;
+$loading0-total-height: 604px;
+$loading0-image: '/static/build/sprites-html/loading.png';
+$loading0: 0px 0px 0px 0px 240px 260px 724px 604px '/static/build/sprites-html/loading.png';
+$loading1-x: 242px;
+$loading1-y: 0px;
+$loading1-offset-x: -242px;
+$loading1-offset-y: 0px;
+$loading1-width: 240px;
+$loading1-height: 260px;
+$loading1-total-width: 724px;
+$loading1-total-height: 604px;
+$loading1-image: '/static/build/sprites-html/loading.png';
+$loading1: 242px 0px -242px 0px 240px 260px 724px 604px '/static/build/sprites-html/loading.png';
+$loading2-x: 484px;
+$loading2-y: 0px;
+$loading2-offset-x: -484px;
+$loading2-offset-y: 0px;
+$loading2-width: 240px;
+$loading2-height: 260px;
+$loading2-total-width: 724px;
+$loading2-total-height: 604px;
+$loading2-image: '/static/build/sprites-html/loading.png';
+$loading2: 484px 0px -484px 0px 240px 260px 724px 604px '/static/build/sprites-html/loading.png';
+$loading3-x: 0px;
+$loading3-y: 262px;
+$loading3-offset-x: 0px;
+$loading3-offset-y: -262px;
+$loading3-width: 240px;
+$loading3-height: 260px;
+$loading3-total-width: 724px;
+$loading3-total-height: 604px;
+$loading3-image: '/static/build/sprites-html/loading.png';
+$loading3: 0px 262px 0px -262px 240px 260px 724px 604px '/static/build/sprites-html/loading.png';
+$loading4-x: 242px;
+$loading4-y: 262px;
+$loading4-offset-x: -242px;
+$loading4-offset-y: -262px;
+$loading4-width: 240px;
+$loading4-height: 260px;
+$loading4-total-width: 724px;
+$loading4-total-height: 604px;
+$loading4-image: '/static/build/sprites-html/loading.png';
+$loading4: 242px 262px -242px -262px 240px 260px 724px 604px '/static/build/sprites-html/loading.png';
+$loading5-x: 484px;
+$loading5-y: 262px;
+$loading5-offset-x: -484px;
+$loading5-offset-y: -262px;
+$loading5-width: 240px;
+$loading5-height: 260px;
+$loading5-total-width: 724px;
+$loading5-total-height: 604px;
+$loading5-image: '/static/build/sprites-html/loading.png';
+$loading5: 484px 262px -484px -262px 240px 260px 724px 604px '/static/build/sprites-html/loading.png';
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}

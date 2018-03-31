@@ -1,0 +1,6 @@
+.DS_Store
+.vagrant
+playbook.retry
+vendor
+npm-debug.log
+node_modules

@@ -1,0 +1,137 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+*/
+$btn-2X3aJhew-x: 0px;
+$btn-2X3aJhew-y: 0px;
+$btn-2X3aJhew-offset-x: 0px;
+$btn-2X3aJhew-offset-y: 0px;
+$btn-2X3aJhew-width: 716px;
+$btn-2X3aJhew-height: 250px;
+$btn-2X3aJhew-total-width: 1434px;
+$btn-2X3aJhew-total-height: 1012px;
+$btn-2X3aJhew-image: '/static/build/sprites-html/stage.png';
+$btn-2X3aJhew: 0px 0px 0px 0px 716px 250px 1434px 1012px '/static/build/sprites-html/stage.png';
+$btn-W7wUbGj9-x: 0px;
+$btn-W7wUbGj9-y: 504px;
+$btn-W7wUbGj9-offset-x: 0px;
+$btn-W7wUbGj9-offset-y: -504px;
+$btn-W7wUbGj9-width: 716px;
+$btn-W7wUbGj9-height: 250px;
+$btn-W7wUbGj9-total-width: 1434px;
+$btn-W7wUbGj9-total-height: 1012px;
+$btn-W7wUbGj9-image: '/static/build/sprites-html/stage.png';
+$btn-W7wUbGj9: 0px 504px 0px -504px 716px 250px 1434px 1012px '/static/build/sprites-html/stage.png';
+$btn-aJ2CDBqV-x: 0px;
+$btn-aJ2CDBqV-y: 252px;
+$btn-aJ2CDBqV-offset-x: 0px;
+$btn-aJ2CDBqV-offset-y: -252px;
+$btn-aJ2CDBqV-width: 716px;
+$btn-aJ2CDBqV-height: 250px;
+$btn-aJ2CDBqV-total-width: 1434px;
+$btn-aJ2CDBqV-total-height: 1012px;
+$btn-aJ2CDBqV-image: '/static/build/sprites-html/stage.png';
+$btn-aJ2CDBqV: 0px 252px 0px -252px 716px 250px 1434px 1012px '/static/build/sprites-html/stage.png';
+$btn-eT7p6uF9-x: 718px;
+$btn-eT7p6uF9-y: 0px;
+$btn-eT7p6uF9-offset-x: -718px;
+$btn-eT7p6uF9-offset-y: 0px;
+$btn-eT7p6uF9-width: 716px;
+$btn-eT7p6uF9-height: 250px;
+$btn-eT7p6uF9-total-width: 1434px;
+$btn-eT7p6uF9-total-height: 1012px;
+$btn-eT7p6uF9-image: '/static/build/sprites-html/stage.png';
+$btn-eT7p6uF9: 718px 0px -718px 0px 716px 250px 1434px 1012px '/static/build/sprites-html/stage.png';
+$btn-lock-x: 718px;
+$btn-lock-y: 252px;
+$btn-lock-offset-x: -718px;
+$btn-lock-offset-y: -252px;
+$btn-lock-width: 716px;
+$btn-lock-height: 250px;
+$btn-lock-total-width: 1434px;
+$btn-lock-total-height: 1012px;
+$btn-lock-image: '/static/build/sprites-html/stage.png';
+$btn-lock: 718px 252px -718px -252px 716px 250px 1434px 1012px '/static/build/sprites-html/stage.png';
+$btn-reinforcements-disable-x: 718px;
+$btn-reinforcements-disable-y: 504px;
+$btn-reinforcements-disable-offset-x: -718px;
+$btn-reinforcements-disable-offset-y: -504px;
+$btn-reinforcements-disable-width: 588px;
+$btn-reinforcements-disable-height: 142px;
+$btn-reinforcements-disable-total-width: 1434px;
+$btn-reinforcements-disable-total-height: 1012px;
+$btn-reinforcements-disable-image: '/static/build/sprites-html/stage.png';
+$btn-reinforcements-disable: 718px 504px -718px -504px 588px 142px 1434px 1012px '/static/build/sprites-html/stage.png';
+$btn-reinforcements-x: 0px;
+$btn-reinforcements-y: 756px;
+$btn-reinforcements-offset-x: 0px;
+$btn-reinforcements-offset-y: -756px;
+$btn-reinforcements-width: 588px;
+$btn-reinforcements-height: 142px;
+$btn-reinforcements-total-width: 1434px;
+$btn-reinforcements-total-height: 1012px;
+$btn-reinforcements-image: '/static/build/sprites-html/stage.png';
+$btn-reinforcements: 0px 756px 0px -756px 588px 142px 1434px 1012px '/static/build/sprites-html/stage.png';
+$btn-top-x: 0px;
+$btn-top-y: 900px;
+$btn-top-offset-x: 0px;
+$btn-top-offset-y: -900px;
+$btn-top-width: 300px;
+$btn-top-height: 112px;
+$btn-top-total-width: 1434px;
+$btn-top-total-height: 1012px;
+$btn-top-image: '/static/build/sprites-html/stage.png';
+$btn-top: 0px 900px 0px -900px 300px 112px 1434px 1012px '/static/build/sprites-html/stage.png';
+$text-1-x: 590px;
+$text-1-y: 756px;
+$text-1-offset-x: -590px;
+$text-1-offset-y: -756px;
+$text-1-width: 602px;
+$text-1-height: 111px;
+$text-1-total-width: 1434px;
+$text-1-total-height: 1012px;
+$text-1-image: '/static/build/sprites-html/stage.png';
+$text-1: 590px 756px -590px -756px 602px 111px 1434px 1012px '/static/build/sprites-html/stage.png';
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}

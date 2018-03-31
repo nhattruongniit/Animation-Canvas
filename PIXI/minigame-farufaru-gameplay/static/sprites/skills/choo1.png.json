@@ -1,0 +1,54 @@
+{
+    "frames": {
+        "image": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 750,
+                "h": 370
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 750,
+                "h": 370
+            },
+            "sourceSize": {
+                "w": 750,
+                "h": 370
+            }
+        },
+        "panel": {
+            "frame": {
+                "x": 0,
+                "y": 372,
+                "w": 175,
+                "h": 160
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 175,
+                "h": 160
+            },
+            "sourceSize": {
+                "w": 175,
+                "h": 160
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "choo1.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 750,
+            "h": 532
+        },
+        "scale": 1
+    }
+}

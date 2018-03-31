@@ -1,0 +1,4 @@
+- include: "{{ stage }}.yml"
+- include: mysql.yml
+- include: root-password.yml
+- include: database.yml

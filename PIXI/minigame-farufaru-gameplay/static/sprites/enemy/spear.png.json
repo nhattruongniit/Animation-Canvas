@@ -1,0 +1,54 @@
+{
+    "frames": {
+        "inventory-spear": {
+            "frame": {
+                "x": 128,
+                "y": 0,
+                "w": 118,
+                "h": 10
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 118,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 118,
+                "h": 10
+            }
+        },
+        "sprite": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 126,
+                "h": 156
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 126,
+                "h": 156
+            },
+            "sourceSize": {
+                "w": 126,
+                "h": 156
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "spear.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 246,
+            "h": 156
+        },
+        "scale": 1
+    }
+}

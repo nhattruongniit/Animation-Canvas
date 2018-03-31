@@ -1,0 +1,39 @@
+{
+    "name": "farufaru-gameplay",
+    "version": "1.0.0",
+    "description": "Gameplay of kingdom",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack-dev-server",
+        "build": "NODE_ENV='production' webpack -p --progress",
+        "sprites": "spritesmith --rc .spritesmith.js",
+        "sounds": "node ./node_modules/.bin/audiosprite --format howler --silence 1 --path ./sounds --output ./public/sounds/sprite --loop ./src/sounds/bgm.wav ./src/sounds/*.wav",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git"
+    },
+    "author": "DeNA",
+    "private": true,
+    "license": "ISC",
+    "devDependencies": {
+        "audiosprite": "^0.7.0",
+        "babel": "^6.23.0",
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.3",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-stage-0": "^6.24.1",
+        "html-webpack-plugin": "^3.0.1",
+        "spritesmith": "^3.3.0",
+        "spritesmith-cli": "^1.1.2",
+        "spritesmith-texturepacker": "^1.0.0",
+        "webpack": "^3.11.0",
+        "webpack-dev-server": "^2.11.2"
+    },
+    "dependencies": {
+        "gsap": "^1.20.3",
+        "howler": "^2.0.9",
+        "pixi.js": "^4.7.0"
+    }
+}

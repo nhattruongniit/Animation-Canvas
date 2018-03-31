@@ -1,0 +1,247 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+*/
+$bg-footer-x: 0px;
+$bg-footer-y: 0px;
+$bg-footer-offset-x: 0px;
+$bg-footer-offset-y: 0px;
+$bg-footer-width: 750px;
+$bg-footer-height: 152px;
+$bg-footer-total-width: 1052px;
+$bg-footer-total-height: 772px;
+$bg-footer-image: '/static/build/sprites-html/result.png';
+$bg-footer: 0px 0px 0px 0px 750px 152px 1052px 772px '/static/build/sprites-html/result.png';
+$bg-header-x: 0px;
+$bg-header-y: 154px;
+$bg-header-offset-x: 0px;
+$bg-header-offset-y: -154px;
+$bg-header-width: 750px;
+$bg-header-height: 136px;
+$bg-header-total-width: 1052px;
+$bg-header-total-height: 772px;
+$bg-header-image: '/static/build/sprites-html/result.png';
+$bg-header: 0px 154px 0px -154px 750px 136px 1052px 772px '/static/build/sprites-html/result.png';
+$bg-point-high-x: 0px;
+$bg-point-high-y: 358px;
+$bg-point-high-offset-x: 0px;
+$bg-point-high-offset-y: -358px;
+$bg-point-high-width: 710px;
+$bg-point-high-height: 50px;
+$bg-point-high-total-width: 1052px;
+$bg-point-high-total-height: 772px;
+$bg-point-high-image: '/static/build/sprites-html/result.png';
+$bg-point-high: 0px 358px 0px -358px 710px 50px 1052px 772px '/static/build/sprites-html/result.png';
+$bg-point-x: 0px;
+$bg-point-y: 292px;
+$bg-point-offset-x: 0px;
+$bg-point-offset-y: -292px;
+$bg-point-width: 710px;
+$bg-point-height: 64px;
+$bg-point-total-width: 1052px;
+$bg-point-total-height: 772px;
+$bg-point-image: '/static/build/sprites-html/result.png';
+$bg-point: 0px 292px 0px -292px 710px 64px 1052px 772px '/static/build/sprites-html/result.png';
+$btn-line-x: 496px;
+$btn-line-y: 410px;
+$btn-line-offset-x: -496px;
+$btn-line-offset-y: -410px;
+$btn-line-width: 244px;
+$btn-line-height: 144px;
+$btn-line-total-width: 1052px;
+$btn-line-total-height: 772px;
+$btn-line-image: '/static/build/sprites-html/result.png';
+$btn-line: 496px 410px -496px -410px 244px 144px 1052px 772px '/static/build/sprites-html/result.png';
+$btn-replay-x: 246px;
+$btn-replay-y: 556px;
+$btn-replay-offset-x: -246px;
+$btn-replay-offset-y: -556px;
+$btn-replay-width: 300px;
+$btn-replay-height: 112px;
+$btn-replay-total-width: 1052px;
+$btn-replay-total-height: 772px;
+$btn-replay-image: '/static/build/sprites-html/result.png';
+$btn-replay: 246px 556px -246px -556px 300px 112px 1052px 772px '/static/build/sprites-html/result.png';
+$btn-stage-x: 752px;
+$btn-stage-y: 0px;
+$btn-stage-offset-x: -752px;
+$btn-stage-offset-y: 0px;
+$btn-stage-width: 300px;
+$btn-stage-height: 112px;
+$btn-stage-total-width: 1052px;
+$btn-stage-total-height: 772px;
+$btn-stage-image: '/static/build/sprites-html/result.png';
+$btn-stage: 752px 0px -752px 0px 300px 112px 1052px 772px '/static/build/sprites-html/result.png';
+$btn-top-x: 752px;
+$btn-top-y: 378px;
+$btn-top-offset-x: -752px;
+$btn-top-offset-y: -378px;
+$btn-top-width: 116px;
+$btn-top-height: 112px;
+$btn-top-total-width: 1052px;
+$btn-top-total-height: 772px;
+$btn-top-image: '/static/build/sprites-html/result.png';
+$btn-top: 752px 378px -752px -378px 116px 112px 1052px 772px '/static/build/sprites-html/result.png';
+$btn-twitter-x: 0px;
+$btn-twitter-y: 556px;
+$btn-twitter-offset-x: 0px;
+$btn-twitter-offset-y: -556px;
+$btn-twitter-width: 244px;
+$btn-twitter-height: 144px;
+$btn-twitter-total-width: 1052px;
+$btn-twitter-total-height: 772px;
+$btn-twitter-image: '/static/build/sprites-html/result.png';
+$btn-twitter: 0px 556px 0px -556px 244px 144px 1052px 772px '/static/build/sprites-html/result.png';
+$btn-wall-disable-x: 0px;
+$btn-wall-disable-y: 410px;
+$btn-wall-disable-offset-x: 0px;
+$btn-wall-disable-offset-y: -410px;
+$btn-wall-disable-width: 248px;
+$btn-wall-disable-height: 144px;
+$btn-wall-disable-total-width: 1052px;
+$btn-wall-disable-total-height: 772px;
+$btn-wall-disable-image: '/static/build/sprites-html/result.png';
+$btn-wall-disable: 0px 410px 0px -410px 248px 144px 1052px 772px '/static/build/sprites-html/result.png';
+$btn-wall-x: 250px;
+$btn-wall-y: 410px;
+$btn-wall-offset-x: -250px;
+$btn-wall-offset-y: -410px;
+$btn-wall-width: 244px;
+$btn-wall-height: 144px;
+$btn-wall-total-width: 1052px;
+$btn-wall-total-height: 772px;
+$btn-wall-image: '/static/build/sprites-html/result.png';
+$btn-wall: 250px 410px -250px -410px 244px 144px 1052px 772px '/static/build/sprites-html/result.png';
+$image-bow-x: 860px;
+$image-bow-y: 114px;
+$image-bow-offset-x: -860px;
+$image-bow-offset-y: -114px;
+$image-bow-width: 106px;
+$image-bow-height: 130px;
+$image-bow-total-width: 1052px;
+$image-bow-total-height: 772px;
+$image-bow-image: '/static/build/sprites-html/result.png';
+$image-bow: 860px 114px -860px -114px 106px 130px 1052px 772px '/static/build/sprites-html/result.png';
+$image-infantry-x: 968px;
+$image-infantry-y: 114px;
+$image-infantry-offset-x: -968px;
+$image-infantry-offset-y: -114px;
+$image-infantry-width: 68px;
+$image-infantry-height: 116px;
+$image-infantry-total-width: 1052px;
+$image-infantry-total-height: 772px;
+$image-infantry-image: '/static/build/sprites-html/result.png';
+$image-infantry: 968px 114px -968px -114px 68px 116px 1052px 772px '/static/build/sprites-html/result.png';
+$image-spear-x: 752px;
+$image-spear-y: 246px;
+$image-spear-offset-x: -752px;
+$image-spear-offset-y: -246px;
+$image-spear-width: 106px;
+$image-spear-height: 130px;
+$image-spear-total-width: 1052px;
+$image-spear-total-height: 772px;
+$image-spear-image: '/static/build/sprites-html/result.png';
+$image-spear: 752px 246px -752px -246px 106px 130px 1052px 772px '/static/build/sprites-html/result.png';
+$image-sword-x: 752px;
+$image-sword-y: 114px;
+$image-sword-offset-x: -752px;
+$image-sword-offset-y: -114px;
+$image-sword-width: 106px;
+$image-sword-height: 130px;
+$image-sword-total-width: 1052px;
+$image-sword-total-height: 772px;
+$image-sword-image: '/static/build/sprites-html/result.png';
+$image-sword: 752px 114px -752px -114px 106px 130px 1052px 772px '/static/build/sprites-html/result.png';
+$text-1-x: 0px;
+$text-1-y: 744px;
+$text-1-offset-x: 0px;
+$text-1-offset-y: -744px;
+$text-1-width: 564px;
+$text-1-height: 28px;
+$text-1-total-width: 1052px;
+$text-1-total-height: 772px;
+$text-1-image: '/static/build/sprites-html/result.png';
+$text-1: 0px 744px 0px -744px 564px 28px 1052px 772px '/static/build/sprites-html/result.png';
+$text-2-x: 0px;
+$text-2-y: 702px;
+$text-2-offset-x: 0px;
+$text-2-offset-y: -702px;
+$text-2-width: 656px;
+$text-2-height: 40px;
+$text-2-total-width: 1052px;
+$text-2-total-height: 772px;
+$text-2-image: '/static/build/sprites-html/result.png';
+$text-2: 0px 702px 0px -702px 656px 40px 1052px 772px '/static/build/sprites-html/result.png';
+$text-boss-fail-x: 870px;
+$text-boss-fail-y: 378px;
+$text-boss-fail-offset-x: -870px;
+$text-boss-fail-offset-y: -378px;
+$text-boss-fail-width: 150px;
+$text-boss-fail-height: 46px;
+$text-boss-fail-total-width: 1052px;
+$text-boss-fail-total-height: 772px;
+$text-boss-fail-image: '/static/build/sprites-html/result.png';
+$text-boss-fail: 870px 378px -870px -378px 150px 46px 1052px 772px '/static/build/sprites-html/result.png';
+$text-boss-success-x: 860px;
+$text-boss-success-y: 246px;
+$text-boss-success-offset-x: -860px;
+$text-boss-success-offset-y: -246px;
+$text-boss-success-width: 132px;
+$text-boss-success-height: 102px;
+$text-boss-success-total-width: 1052px;
+$text-boss-success-total-height: 772px;
+$text-boss-success-image: '/static/build/sprites-html/result.png';
+$text-boss-success: 860px 246px -860px -246px 132px 102px 1052px 772px '/static/build/sprites-html/result.png';
+$text-point-x: 870px;
+$text-point-y: 426px;
+$text-point-offset-x: -870px;
+$text-point-offset-y: -426px;
+$text-point-width: 98px;
+$text-point-height: 34px;
+$text-point-total-width: 1052px;
+$text-point-total-height: 772px;
+$text-point-image: '/static/build/sprites-html/result.png';
+$text-point: 870px 426px -870px -426px 98px 34px 1052px 772px '/static/build/sprites-html/result.png';
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}

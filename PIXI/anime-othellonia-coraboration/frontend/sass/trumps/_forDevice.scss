@@ -1,0 +1,35 @@
+.is-pc {
+    .forPc {
+        display: block !important;
+    }
+    .forSp {
+        display: none !important;
+    }
+}
+
+.is-sp {
+    .forPc {
+        display: none !important;
+    }
+    .forSp {
+        display: block !important;
+    }
+}
+
+.is-ios {
+    .forIos {
+        display: block !important;
+    }
+    .forAndroid {
+        display: none !important;
+    }
+}
+
+.is-android {
+    .forIos {
+        display: none !important;
+    }
+    .forAndroid {
+        display: block !important;
+    }
+}

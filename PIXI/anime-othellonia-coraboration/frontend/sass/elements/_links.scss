@@ -1,0 +1,11 @@
+a {
+    text-decoration: none;
+    color: $color-link;
+    display: block;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    &:hover,
+    &:focus {
+        color: $color-link-hover;
+    }
+}

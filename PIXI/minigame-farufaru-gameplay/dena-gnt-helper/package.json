@@ -1,0 +1,17 @@
+{
+    "name": "dena-gnt-helper",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./src/components/index.js",
+    "scripts": {
+        "serve": "webpack-dev-server",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "html-webpack-plugin": "^2.30.1",
+        "webpack": "^3.10.0",
+        "webpack-dev-server": "^2.11.1"
+    }
+}

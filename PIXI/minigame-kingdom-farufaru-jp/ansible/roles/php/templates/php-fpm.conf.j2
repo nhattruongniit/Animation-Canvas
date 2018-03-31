@@ -1,0 +1,22 @@
+[www]
+user = nginx
+group = nginx
+listen = /var/run/php-fpm.sock
+listen.mode = 0666
+
+catch_workers_output = yes
+php_admin_value[error_log] = {{ php_log_directory }}/error.log
+
+request_slowlog_timeout = 1s
+slowlog = {{ php_log_directory }}/fpm-slow.log
+
+pm.status_path = /phpfpm_status
+
+pm = dynamic
+pm.max_children = {{ phpfpm_max_children }}
+pm.min_spare_servers = {{ phpfpm_min_children }}
+pm.max_spare_servers = {{ phpfpm_max_children }}
+pm.max_requests = {{ phpfpm_max_requests }}
+request_terminate_timeout = {{ timeout }}
+
+env[STAGE] = {{ stage }}

@@ -1,0 +1,22 @@
+- name: create swap directory
+  file:
+    path: /data/tmp
+    state: directory
+    mode: 0777
+  register: swap_change
+
+- name: create swap file
+  shell: "{{ item }}"
+  with_items:
+    - dd if=/dev/zero of=/data/tmp/swap.img bs=1M count=2048
+    - chmod 600 /data/tmp/swap.img
+    - mkswap /data/tmp/swap.img
+    - swapon /data/tmp/swap.img
+  when: swap_change.changed
+
+- name: add line /etc/fstab
+  lineinfile:
+    dest: /etc/fstab
+    line: "{{ item }}"
+  with_items:
+    - "/data/tmp/swap.img swap swap defaults 0 0"

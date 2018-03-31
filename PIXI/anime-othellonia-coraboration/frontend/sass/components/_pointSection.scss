@@ -1,0 +1,158 @@
+.c-pointSection {
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    .charPoint {
+        position: absolute;
+        max-width: inherit;
+    }
+    &__title {
+        position: relative;
+        text-align: center;
+        height: 220px;
+        z-index: 90;
+        .lightPoint {
+            top: 0px;
+            left: -680px;
+            z-index: 1;
+            opacity: 0;
+        }
+        .iconNumb {
+            z-index: 10;
+            top: 10px;
+            left: -10px;
+            opacity: 0;
+            transform: scaleX(2) scaleY(2);
+        }
+        #textPoint1 {
+            top: 120px;
+            right: -250px;
+            opacity: 0;
+            z-index: 20;
+        }
+        #textPoint2 {
+            top: 129px;
+            right: -100px;
+            z-index: 20;
+            opacity: 0;
+        }
+        #textPoint3 {
+            top: 129px;
+            right: -100px;
+            z-index: 20;
+            opacity: 0;
+        }
+        &--point4 {
+            text-align: center;
+            img {
+                position: relative !important;
+                max-width: 100% !important;
+            }
+        }
+    }
+    &__content {
+        &__info {
+            position: relative;
+            z-index: 50;
+        }
+        &--section1 {
+            padding-top: 345px;
+            position: relative;
+        }
+        .charPoint {
+            opacity: 0;
+        }
+        #point1_char1 {
+            z-index: 20;
+            top: 62px;
+            left: 111px;
+        }
+        #point1_char2 {
+            top: 94px;
+            right: -53px;
+            z-index: 15;
+        }
+        #point1_char3 {
+            top: 49px;
+            right: 18px;
+            z-index: 5;
+        }
+        #point1_char4 {
+            top: 116px;
+            left: -47px;
+        }
+        #point1_light {
+            bottom: 250px;
+            left: -47px;
+            z-index: 2;
+        }
+        &--section2 {
+            padding-top: 450px;
+            position: relative;
+        }
+        #point2_char1 {
+            z-index: 15;
+            top: 80px;
+            left: -30px;
+        }
+        #point2_char2 {
+            top: 188px;
+            right: -60px;
+            z-index: 20;
+        }
+        #point2_char3 {
+            top: 76px;
+            right: -33px;
+        }
+        &--section3 {
+            padding-top: 370px;
+            position: relative;
+        }
+        #point3_char1 {
+            z-index: 15;
+            top: 230px;
+            left: -48px;
+        }
+        #point3_char2 {
+            top: -50px;
+            right: -32px;
+            z-index: 20;
+            transform: scaleX(2) scaleY(2);
+        }
+    }
+    &__text {
+        margin-top: 20px;
+        -webkit-font-feature-settings: "palt";
+        font-feature-settings: "palt";
+    }
+    &__frame {
+        padding: 9px 0;
+        &+& {
+            margin-top: 40px;
+        }
+        position: relative;
+        &::before {
+            content: '';
+            width: 100%;
+            height: 9px;
+            background: url('../images/top/line.png') repeat-x left top;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 10;
+        }
+        &::after {
+            content: '';
+            width: 100%;
+            height: 9px;
+            background: url('../images/top/line.png') repeat-x left top;
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+        }
+        img {
+            position: relative !important;
+            max-width: 100% !important;
+        }
+    }
+}

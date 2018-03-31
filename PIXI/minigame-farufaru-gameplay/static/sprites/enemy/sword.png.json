@@ -1,0 +1,54 @@
+{
+    "frames": {
+        "inventory-helmet": {
+            "frame": {
+                "x": 128,
+                "y": 0,
+                "w": 24,
+                "h": 32
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 24,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 24,
+                "h": 32
+            }
+        },
+        "sprite": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 126,
+                "h": 156
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 126,
+                "h": 156
+            },
+            "sourceSize": {
+                "w": 126,
+                "h": 156
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "sword.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 152,
+            "h": 156
+        },
+        "scale": 1
+    }
+}
