@@ -1,0 +1,26 @@
+script.
+    (function(){
+        document.addEventListener('readystatechange', function(){
+            if(document.readyState !== 'interactive'){
+                return;
+            }
+
+            var platform = (function () {
+                if ((/iPhone|iPad|iPod/i).test(navigator.userAgent)) {
+                    return 'ios';
+                }
+                if ((/Android|BlackBerry/i).test(navigator.userAgent)) {
+                    return 'android';
+                }
+                return false;
+            })();
+
+            if (platform && -1 !== ['ios', 'android'].indexOf(platform)) {
+                document.body.className += ' is-sp is-' + platform;
+                document.body.setAttribute('data-device', 'sp');
+            } else {
+                document.body.className += ' is-pc';
+                document.body.setAttribute('data-device', 'pc');
+            }
+        });
+    })();

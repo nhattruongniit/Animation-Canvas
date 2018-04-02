@@ -1,0 +1,74 @@
+block head
+    link(rel="stylesheet" href="./assets/css/index.css")
+
+block head_script
+    script.
+        var pageID = "index";
+
+block scripts
+    script(type='text/javascript', src='./assets/js/vendor.js')
+    script(type='text/javascript', src='./assets/js/index.js')
+
+block content
+    .o-container
+        header
+        main.c-contents
+            section.c-section.c-section--period.c-section-period
+                h2.c-section__title.c-section__title--period
+                span.c-section-period__time
+                span.o-end-message キャンペーン期間は終了いたしました
+            section.c-section.c-section--count.c-section-count
+                h2.c-section__title.c-section__title--count
+                .c-section-count__total
+                    include ../components/score
+                    span.c-section-count__times
+                .c-section-count__text
+                    <!-- Score Update Begin -->
+                    b#js-score-updated-at 4/9 15:00
+                    <!-- Score Update End -->
+                    b &nbsp;更新&nbsp;&nbsp;
+                    | ※総冒険回数の反映にはお時間がかかります。
+            section.c-section.c-section--incentive
+                h2.c-section__title.c-section__title--incentive
+                .c-incentive
+                    .c-incentive__catch
+                    .c-incentive__catch__notification
+                    a.c-incentive__attention(href='./terms') キャンペーン注意事項(必読)に同意して
+                    div.c-incentive__startGame-box
+                        a.c-incentive__startGame.u-hide-ended(href=config.gameUrl) 今すぐ冒険する!
+                        span.c-incentive__startGame-ended.u-show-ended 今すぐ冒険する!
+                        span.o-end-message キャンペーン期間は終了いたしました
+                    .c-incentiveUpgrade
+                        h3.c-incentiveUpgrade__title
+                        .c-incentiveUpgrade__gauge
+                        .c-incentiveUpgrade__gauge-color
+                        .c-incentiveUpgrade__box
+                            .c-incentiveUpgrade__step.c-incentiveUpgrade__step--start
+                            .c-incentiveUpgrade__step.c-incentiveUpgrade__step--100
+                                span.c-incentiveUpgrade__complete-icon
+                            .c-incentiveUpgrade__step.c-incentiveUpgrade__step--300
+                                span.c-incentiveUpgrade__complete-icon
+                            .c-incentiveUpgrade__step.c-incentiveUpgrade__step--500
+                                span.c-incentiveUpgrade__complete-icon
+                            .c-incentiveUpgrade__step.c-incentiveUpgrade__step--1000
+                                span.c-incentiveUpgrade__complete-icon
+                            .c-incentiveUpgrade__step.c-incentiveUpgrade__step--1500
+                                span.c-incentiveUpgrade__complete-icon
+                            .c-incentiveUpgrade__step.c-incentiveUpgrade__step--2000
+                                span.c-incentiveUpgrade__complete-icon
+                        .c-incentiveUpgrade__gauge-arrow
+                    .c-incentiveInfo
+                        .c-incentiveInfo__box
+                        p.c-incentiveInfo__text
+                            | 配布対象は、5/6(日)23:59までにゲームを開始し、
+                            br
+                            | 4/20(金)15:00から5/6(日)23:59までに
+                            br
+                            | ログインしたお客様となります。
+                            br
+                            | 報酬アイテムの受け取り期限は5/13(日)23:59となります。
+            a.banner-2nd(href=config.bannerLink)
+            include ../components/share
+            .mail__box
+                a.mail__box__link(href=href = 'mailto:' + config.mailto + '?subject=' + config.mailSubject) お問い合わせ
+

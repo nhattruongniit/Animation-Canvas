@@ -1,0 +1,27 @@
+doctype html
+html(lang='ja', data-page-type='html', data-env=config.env, class="no-js")
+    head
+        include head
+
+        style
+            include loading.css
+
+        block head
+            link(rel="stylesheet" href="assets/css/index.css")
+
+        block head_script
+
+        include check_device_js
+    body(data-page=pageID)
+        include loading
+
+        block content
+
+        include footer
+
+        block scripts
+
+        if config.debuggable
+            include gtm_body_dev
+        else
+            include gtm_body

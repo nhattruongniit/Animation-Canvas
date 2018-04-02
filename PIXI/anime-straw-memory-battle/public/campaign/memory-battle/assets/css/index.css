@@ -1,0 +1,1305 @@
+@charset "UTF-8";
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+body {
+  margin: 0; }
+
+/**
+ * Add the correct display in IE 9-.
+ */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+figcaption,
+figure,
+main {
+  /* 1 */
+  display: block; }
+
+/**
+ * Add the correct margin in IE 8.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */ }
+
+/**
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+b,
+strong {
+  font-weight: inherit; }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+mark {
+  background-color: #ff0;
+  color: #000; }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+audio,
+video {
+  display: inline-block; }
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+img {
+  border-style: none; }
+
+/**
+ * Hide the overflow in IE.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */ }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+details,
+menu {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+
+/* Scripting
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+canvas {
+  display: inline-block; }
+
+/**
+ * Add the correct display in IE.
+ */
+template {
+  display: none; }
+
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+[hidden] {
+  display: none; }
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+/* ==========================================================================
+   #RESET
+   ========================================================================== */
+/**
+ * A very simple reset that sits on top of Normalize.css.
+ */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+p,
+pre,
+dl,
+dd,
+ol,
+ul,
+figure,
+hr,
+fieldset,
+legend {
+  margin: 0;
+  padding: 0; }
+
+/**
+ * Remove trailing margins from nested lists.
+ */
+li > ol,
+li > ul {
+  margin-bottom: 0; }
+
+/**
+ * Remove default table spacing.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/**
+ * 1. Reset Chrome and Firefox behaviour which sets a `min-width: min-content;`
+ *    on fieldsets.
+ */
+fieldset {
+  min-width: 0;
+  /* [1] */
+  border: 0; }
+
+/* ==========================================================================
+   #PAGE
+   ========================================================================== */
+/**
+ * Simple page-level setup.
+ *
+ * 1. Set the default `font-size` and `line-height` for the entire project,
+ *    sourced from our default variables. The `font-size` is calculated to exist
+ *    in ems, the `line-height` is calculated to exist unitlessly.
+ * 2. Force scrollbars to always be visible to prevent awkward ‘jumps’ when
+ *    navigating between pages that do/do not have enough content to produce
+ *    scrollbars naturally.
+ * 3. Ensure the page always fills at least the entire height of the viewport.
+ */
+html {
+  font-size: 0.875em;
+  /* [1] */
+  line-height: 1.42857 !important;
+  /* [1] */
+  overflow-y: scroll;
+  /* [2] */
+  min-height: 100%;
+  /* [3] */
+  color: #434343 !important;
+  height: 100%; }
+
+body {
+  color: inherit;
+  height: 100%;
+  width: 100%;
+  font-family: "\6E38\30B4\30B7\30C3\30AF" , "Yu Gothic" , "\6E38\30B4\30B7\30C3\30AF\4F53" , "YuGothic" , "\30D2\30E9\30AE\30CE\89D2\30B4   Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "\30E1\30A4\30EA\30AA" , Meiryo , "\FF2D\FF33   \FF30\30B4\30B7\30C3\30AF" , "MS PGothic" , sans-serif;
+  -webkit-font-feature-settings: "palt" 1;
+  font-feature-settings: "palt" 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+body.is-pc {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(/campaign/memory-battle/assets/images/bg-pc.jpg); }
+
+ul li {
+  list-style: none; }
+
+.u-text--primary {
+  color: #434343 !important; }
+
+.u-text--secondary {
+  color: #AEB9C4 !important; }
+
+.u-text--muted {
+  color: #ACBAC7 !important; }
+
+.u-text--info {
+  color: #67B2FC !important; }
+
+.u-text--success {
+  color: #2ECC71 !important; }
+
+.u-text--danger {
+  color: #FF3824 !important; }
+
+.u-text--gray-light {
+  color: #AEB9C4 !important; }
+
+.u-text--gray-lighter {
+  color: #DEE1E4 !important; }
+
+.u-text--jp {
+  font-family: "Noto Sans Japanese", "Helvetica Neue", Helvetica, Arial, sans-serif !important; }
+
+.u-text--en {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important; }
+
+.u-text--bold {
+  font-weight: bold !important; }
+
+.u-text--medium {
+  font-weight: 500 !important; }
+
+.u-text--size-20 {
+  font-size: 20px !important; }
+
+.u-text--size-18 {
+  font-size: 18px !important; }
+
+.u-text--size-16 {
+  font-size: 16px !important; }
+
+.u-text--size-15 {
+  font-size: 15px !important; }
+
+.u-text--size-14 {
+  font-size: 14px !important; }
+
+.u-text--left {
+  text-align: left !important; }
+
+.u-text--right {
+  text-align: right !important; }
+
+.u-text--center {
+  text-align: center !important; }
+
+.u-text--truncate {
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important; }
+
+.u-text--hidden {
+  font-size: 0 !important; }
+
+.u-text--fit {
+  line-height: 1 !important; }
+
+.u-text--underline {
+  text-decoration: underline !important; }
+
+.u-text--clickable {
+  cursor: pointer; }
+
+.u-display--block {
+  display: block !important; }
+
+.u-display--inline {
+  display: inline !important; }
+
+.u-display--inline-block {
+  display: inline-block !important; }
+
+.u-float--left {
+  float: left; }
+
+.u-float--right {
+  float: right; }
+
+/* ==========================================================================
+   #CLEARFIX
+   ========================================================================== */
+/**
+ * Attach our clearfix mixin to a utility class.
+ */
+.u-clearfix:after {
+  content: "" !important;
+  display: block !important;
+  clear: both !important; }
+
+/* ==========================================================================
+   #HIDE
+   ========================================================================== */
+/**
+ * Hide visually and from screen readers.
+ */
+.u-hidden {
+  display: none !important; }
+
+.u-vertical--base {
+  vertical-align: baseline !important; }
+
+.u-vertical--top {
+  vertical-align: top !important; }
+
+.u-vertical--middle {
+  vertical-align: middle !important; }
+
+.u-vertical--bottom {
+  vertical-align: bottom !important; }
+
+/* ==========================================================================
+   #HIDE
+   ========================================================================== */
+/**
+ * Hide visually and from screen readers.
+ */
+.is-ended .u-show-ended {
+  display: block !important; }
+
+.is-ended .u-hide-ended {
+  display: none !important; }
+
+.o-wrapper {
+  width: 800px;
+  margin: auto; }
+
+.o-container {
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden; }
+
+.o-end-message {
+  width: 570px;
+  height: 62px;
+  font-size: 28px;
+  color: #fff;
+  line-height: 62px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #a60000;
+  box-shadow: 0px 5px 18px 2px #000;
+  position: absolute;
+  top: 56px;
+  left: 50%;
+  margin-left: -285px;
+  display: none; }
+
+.is-ended .o-end-message {
+  display: block; }
+
+.o-digit {
+  display: inline-block;
+  width: 56px;
+  height: 0;
+  padding-top: 84px;
+  overflow: hidden;
+  color: transparent; }
+  .o-digit--0 {
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -410px -1784px;
+    width: 69px;
+    height: 86px; }
+  .o-digit--1 {
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -2062px -455px;
+    width: 56px;
+    height: 85px; }
+  .o-digit--2 {
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -2020px -654px;
+    width: 76px;
+    height: 85px; }
+  .o-digit--3 {
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -336px -1784px;
+    width: 70px;
+    height: 86px; }
+  .o-digit--4 {
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -253px -1643px;
+    width: 73px;
+    height: 85px; }
+  .o-digit--5 {
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -2011px -1247px;
+    width: 74px;
+    height: 85px; }
+  .o-digit--6 {
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -262px -1784px;
+    width: 70px;
+    height: 86px; }
+  .o-digit--7 {
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -330px -1643px;
+    width: 69px;
+    height: 84px; }
+  .o-digit--8 {
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -112px -1784px;
+    width: 71px;
+    height: 86px; }
+  .o-digit--9 {
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -187px -1784px;
+    width: 71px;
+    height: 86px; }
+  .o-digit--comma {
+    -webkit-transform: translateY(3px);
+    transform: translateY(3px);
+    padding-top: 34px;
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -2077px -281px;
+    width: 24px;
+    height: 32px; }
+
+header {
+  display: flex;
+  justify-content: center;
+  background-image: url(/campaign/memory-battle/assets/images/bg-header.png);
+  width: 750px;
+  height: 877px;
+  position: relative; }
+  header canvas {
+    position: absolute;
+    top: 0;
+    left: 0; }
+  header::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    display: block; }
+
+.c-header {
+  width: 50%; }
+
+.c-header__link {
+  border-top: 3px solid #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 25px; }
+  .c-header__link--active {
+    border-top: none;
+    background-color: #c1c1c1; }
+
+.c-header__text {
+  margin-left: 10px; }
+
+.c-footer__container {
+  max-height: 100%;
+  position: relative;
+  padding: 64px 48px;
+  background: -webkit-linear-gradient(top, #fff000, #fa921f);
+  background: linear-gradient(to bottom, #fff000, #fa921f);
+  font-weight: bold;
+  color: #000000; }
+
+.c-footer__skull {
+  opacity: 0.15;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -170px;
+  margin-left: -170px;
+  width: 340px;
+  height: 340px;
+  overflow: hidden; }
+
+.c-footer__desc {
+  width: 654px;
+  margin: 0 auto;
+  line-height: 1.2;
+  font-size: 24px; }
+  .c-footer__desc dt {
+    color: #eb0000; }
+  .c-footer__desc dd {
+    margin-bottom: 16px; }
+    .c-footer__desc dd.note {
+      color: #260d00;
+      font-size: 18px;
+      font-weight: normal;
+      padding-top: 15px; }
+
+.c-footer__copyright {
+  line-height: 1.8;
+  margin: 48px auto 12px;
+  text-align: center;
+  font-size: 20px; }
+
+body.is-pc .c-footer__desc {
+  font-size: 16px; }
+
+body.is-pc .c-footer__copyright {
+  font-size: 14px; }
+
+.c-footer__icon {
+  position: absolute;
+  top: 64px;
+  left: 45%;
+  margin-left: 90px;
+  display: block;
+  background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+  background-position: -1426px -455px;
+  width: 312px;
+  height: 312px; }
+
+.c-footer__link {
+  background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+  background-position: -1742px -654px;
+  width: 274px;
+  height: 97px;
+  position: absolute;
+  top: 335px;
+  left: 46%;
+  margin-left: 90px;
+  display: block;
+  font-size: 0;
+  color: transparent; }
+
+.c-contents {
+  padding: 150px 0 0px;
+  background-image: url(/campaign/memory-battle/assets/images/bg.jpg);
+  background-position: 0 0, 0 68px; }
+  .c-contents--terms {
+    padding-top: 60px; }
+
+.banner-2nd {
+  background-image: url(/campaign/memory-battle/assets/images/banner-2nd.png);
+  width: 750px;
+  height: 286px;
+  display: block; }
+
+.mail__box {
+  width: 750px;
+  height: 135px;
+  background-color: #260d00; }
+
+.mail__box__link {
+  background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+  background-position: -1426px -1199px;
+  width: 192px;
+  height: 34px;
+  font-size: 0;
+  display: block;
+  color: transparent;
+  margin: 0 auto;
+  position: relative;
+  top: 50px; }
+
+.c-section {
+  position: relative; }
+  .c-section--period {
+    display: block;
+    padding-top: 65px;
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: 0px -1247px;
+    width: 750px;
+    height: 200px; }
+  .c-section--count {
+    display: block;
+    padding-top: 65px;
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: 0px -662px;
+    width: 750px;
+    height: 300px; }
+  .c-section--incentive {
+    display: block;
+    padding-top: 65px;
+    background-image: url(/campaign/memory-battle/assets/images/bg-incentive.png);
+    height: 3310px; }
+  .c-section--resizable:before, .c-section--resizable:after {
+    content: '';
+    display: block;
+    width: 736px;
+    height: 67px;
+    margin: 0 auto; }
+  .c-section--resizable:before {
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -824px -1451px;
+    margin-bottom: -1px; }
+  .c-section--resizable:after {
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -112px -1572px;
+    margin-top: -1px; }
+  .c-section--resizable__body {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAuEAAAAFCAYAAADrCjIvAAABCklEQVRoge3WT0vCcACH8Wf7gds0nGWZhe1QCEHgqRcQdIpOHYNeXtBL6BR4r5MQBLMOoz+KtkxrOWesd2FB3887eG6PFYZhFATB1l7FoeRC0YGz0xY72z7NZplyxWH6nRP1Em46r1y2n4nvhhwfnuCVitQaDZbXa/gVnyXfp+C5LNfWsI2hulEnTb4ouC6WbeF4HiIiIiIif808yzDGkEw+sI1hnmXEvR55njN8eiHuDxgO+kziN2bTGY/dLu3rK1Z2Vzk62GS/VSWoF3GNxXiUEoZj7h/eOb/okKTwOYXbUUoURQC2/dvBIiIiIiL/jSZcRERERGTBNOEiIiIiIgumCRcRERERWbAfA55PnOlm1qcAAAAASUVORK5CYII=");
+    background-repeat: repeat-y;
+    background-position: 7px; }
+
+.c-section__title {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%); }
+  .c-section__title--period {
+    display: block;
+    overflow: hidden;
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -754px -662px;
+    width: 434px;
+    height: 76px; }
+  .c-section__title--count {
+    display: block;
+    overflow: hidden;
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -1426px -1117px;
+    width: 434px;
+    height: 78px; }
+  .c-section__title--incentive {
+    display: block;
+    overflow: hidden;
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -754px -742px;
+    width: 434px;
+    height: 76px; }
+  .c-section__title--terms {
+    display: block;
+    overflow: hidden;
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -754px -822px;
+    width: 434px;
+    height: 73px; }
+
+.c-incentive__catch {
+  position: relative;
+  content: "";
+  top: 10px;
+  height: 550px;
+  width: 750px; }
+  .c-incentive__catch::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    display: block; }
+
+.c-incentive__catch__notification {
+  background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+  background-position: -112px -1451px;
+  width: 708px;
+  height: 117px;
+  margin: 30px auto 0; }
+
+.c-incentive__attention {
+  margin: 20px auto 0;
+  display: block;
+  padding-top: 55px;
+  overflow: hidden;
+  color: transparent;
+  background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+  background-position: -754px -899px;
+  width: 478px;
+  height: 51px; }
+
+.c-incentive__startGame-box {
+  position: relative; }
+  .c-incentive__startGame-box .o-end-message {
+    top: 50px; }
+
+.c-incentive__startGame, .c-incentive__startGame-ended {
+  margin: -1px auto 0;
+  display: block;
+  overflow: hidden;
+  color: transparent;
+  background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+  background-position: -1426px -281px;
+  width: 647px;
+  height: 170px; }
+
+.c-incentive__startGame-ended {
+  display: none;
+  opacity: 0.5; }
+
+.c-incentiveUpgrade {
+  position: relative; }
+  .c-incentiveUpgrade__title {
+    margin: 0 auto 4px;
+    display: block;
+    overflow: hidden;
+    color: transparent;
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -754px -1247px;
+    width: 737px;
+    height: 200px; }
+  .c-incentiveUpgrade__gauge, .c-incentiveUpgrade__gauge-color {
+    position: absolute;
+    min-width: 52px;
+    top: 263px;
+    left: 20px;
+    height: 1555px; }
+  .c-incentiveUpgrade__gauge-arrow {
+    position: absolute;
+    top: 342px;
+    left: 19px;
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -1864px -1117px;
+    width: 111px;
+    height: 67px;
+    -webkit-transition: top 1500ms linear 500ms;
+    -moz-transition: top 1500ms linear 500ms;
+    -ms-transition: top 1500ms linear 500ms;
+    -o-transition: top 1500ms linear 500ms;
+    transition: top 1500ms linear 500ms; }
+  .c-incentiveUpgrade__gauge {
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -56px -1451px; }
+  .c-incentiveUpgrade__gauge-color {
+    height: 112px;
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: 0px -1451px;
+    -webkit-transition: height 1500ms linear 500ms;
+    -moz-transition: height 1500ms linear 500ms;
+    -ms-transition: height 1500ms linear 500ms;
+    -o-transition: height 1500ms linear 500ms;
+    transition: height 1500ms linear 500ms; }
+  .c-incentiveUpgrade__gauge-color.animated {
+    height: 1555px !important; }
+
+.c-incentiveUpgrade__step {
+  position: relative;
+  margin-left: 40px;
+  margin-top: -70px; }
+  .c-incentiveUpgrade__step--start {
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -713px -331px;
+    width: 699px;
+    height: 277px;
+    margin-top: 0; }
+  .c-incentiveUpgrade__step--100 {
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -1426px 0px;
+    width: 699px;
+    height: 277px; }
+  .c-incentiveUpgrade__step--300 {
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -703px -966px;
+    width: 699px;
+    height: 277px; }
+  .c-incentiveUpgrade__step--500 {
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: 0px -966px;
+    width: 699px;
+    height: 277px; }
+  .c-incentiveUpgrade__step--1000 {
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -713px 0px;
+    width: 709px;
+    height: 327px; }
+  .c-incentiveUpgrade__step--1500 {
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: 0px -331px;
+    width: 709px;
+    height: 327px; }
+  .c-incentiveUpgrade__step--2000 {
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: 0px 0px;
+    width: 709px;
+    height: 327px; }
+  .c-incentiveUpgrade__step--1000, .c-incentiveUpgrade__step--1500, .c-incentiveUpgrade__step--2000 {
+    margin-left: 30px; }
+
+.c-incentiveUpgrade__complete-icon {
+  background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+  background-position: -112px -1643px;
+  width: 137px;
+  height: 137px;
+  position: absolute;
+  top: 2px;
+  right: 0;
+  display: none;
+  opacity: 0;
+  -webkit-transform: scale(4);
+  transform: scale(4);
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  transition-property: transform, opacity;
+  transition-property: transform, opacity, -webkit-transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+  transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715); }
+
+.c-incentiveUpgrade__step.animated .c-incentiveUpgrade__complete-icon,
+.c-incentiveUpgrade__complete-icon.animated {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1); }
+
+.is-sbp-100 .c-incentiveUpgrade__step--100 .c-incentiveUpgrade__complete-icon {
+  display: block; }
+
+.is-sbp-300 .c-incentiveUpgrade__step--300 .c-incentiveUpgrade__complete-icon {
+  display: block; }
+
+.is-sbp-500 .c-incentiveUpgrade__step--500 .c-incentiveUpgrade__complete-icon {
+  display: block; }
+
+.is-sbp-1000 .c-incentiveUpgrade__step--1000 .c-incentiveUpgrade__complete-icon {
+  display: block; }
+
+.is-sbp-1500 .c-incentiveUpgrade__step--1500 .c-incentiveUpgrade__complete-icon {
+  display: block; }
+
+.is-sbp-2000 .c-incentiveUpgrade__step--2000 .c-incentiveUpgrade__complete-icon {
+  display: block; }
+
+.c-incentiveInfo__box {
+  margin: 20px auto;
+  overflow: hidden;
+  background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+  background-position: -1426px -771px;
+  width: 632px;
+  height: 144px; }
+
+.c-incentiveInfo__text {
+  font-size: 22px;
+  line-height: 1.636;
+  text-align: center; }
+
+.c-section-period {
+  text-align: center; }
+  .c-section-period__time {
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -1426px -1059px;
+    width: 659px;
+    height: 54px;
+    display: inline-block; }
+  .c-section-period .o-end-message {
+    top: 56px; }
+
+.c-section-count__total {
+  text-align: center;
+  font-size: 0;
+  margin-top: 15px; }
+  .c-section-count__total .o-digit + .o-digit {
+    margin-left: 2px; }
+  .c-section-count__total .o-digit + .o-digit--comma {
+    margin-left: -5px;
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px); }
+
+.c-section-count__times {
+  display: inline-block;
+  -webkit-transform: translateY(8px);
+  transform: translateY(8px);
+  margin-left: -8px;
+  background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+  background-position: -2062px -544px;
+  width: 61px;
+  height: 57px; }
+
+.c-section-count__text {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 17px; }
+  .c-section-count__text b {
+    font-size: 22px;
+    font-weight: bold; }
+
+.c-sns {
+  font-size: 0;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.c-sns__item {
+  display: inline-block; }
+
+body.is-pc .c-sns__link {
+  display: block; }
+  body.is-pc .c-sns__link--facebook {
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -1839px -1247px;
+    width: 168px;
+    height: 168px; }
+  body.is-pc .c-sns__link--twitter {
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -1667px -1247px;
+    width: 168px;
+    height: 168px; }
+
+body.is-sp .c-sns__link {
+  display: block;
+  color: transparent; }
+  body.is-sp .c-sns__link--facebook {
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -1839px -1247px;
+    width: 168px;
+    height: 168px; }
+  body.is-sp .c-sns__link--twitter {
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -1667px -1247px;
+    width: 168px;
+    height: 168px; }
+  body.is-sp .c-sns__link--line {
+    background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+    background-position: -1495px -1247px;
+    width: 168px;
+    height: 168px; }
+
+#nbgiProductsFooter {
+  position: relative; }
+
+body.is-sp #nbgiProductsFooter {
+  width: 375px; }
+
+body.is-sp #npf-outer {
+  transform: scale(2);
+  transform-origin: top left; }
+
+.terms__header {
+  height: 190px;
+  background-image: url(/campaign/memory-battle/assets/images/bg-terms-header.jpg); }
+
+.terms__header__logo {
+  background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+  background-position: -1877px -919px;
+  width: 188px;
+  height: 128px;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.terms__header__title {
+  background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+  background-position: -1742px -455px;
+  width: 316px;
+  height: 195px; }
+
+.c-terms__detail {
+  padding: 0 40px; }
+  .c-terms__detail__title {
+    margin: 0 auto;
+    width: 660px;
+    padding: 21px 25px 21px;
+    background: #260d00;
+    color: #ffd400;
+    font-size: 30px;
+    border-radius: 10px;
+    line-height: 1;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.3); }
+  .c-terms__detail__sub-title {
+    margin: 40px auto 0;
+    width: 660px;
+    padding: 21px 25px 21px;
+    background: #ffffff;
+    color: #000000;
+    font-size: 22px;
+    border-radius: 10px;
+    line-height: 1;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.3); }
+  .c-terms__detail__text {
+    font-size: 22px;
+    line-height: 1.909;
+    color: #260d00;
+    margin: 30px 0 10px;
+    padding: 0 20px; }
+    .c-terms__detail__text:last-of-type {
+      margin-bottom: 0; }
+  .c-terms__detail__text + .c-terms__detail__text {
+    margin-top: 20px; }
+  .c-terms__detail__text + .c-terms__detail__title {
+    margin-top: 60px; }
+  .c-terms__detail__text + .c-terms__detail__sub-title {
+    margin-top: 40px; }
+  .c-terms__detail__indent {
+    display: block;
+    padding-left: 25px;
+    text-indent: -25px; }
+  .c-terms__detail__text-note {
+    color: #ff3600; }
+  .c-terms__detail a {
+    color: #ff3600;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent; }
+
+.c-terms__back-button {
+  display: block;
+  background-image: url(/campaign/memory-battle/assets/images/spritesheet.png);
+  background-position: -1426px -919px;
+  width: 447px;
+  height: 136px;
+  margin: 27px auto 15px; }
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuL2Fzc2V0cy9jc3MvaW5kZXguY3NzIiwic291cmNlUm9vdCI6IiJ9*/

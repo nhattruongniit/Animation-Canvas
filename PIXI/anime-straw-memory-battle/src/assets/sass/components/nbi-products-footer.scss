@@ -1,0 +1,12 @@
+#nbgiProductsFooter{
+    position: relative;
+}
+body.is-sp{
+    #nbgiProductsFooter{
+        width: 375px;
+    }
+    #npf-outer{
+        transform: scale(2);
+        transform-origin: top left;
+    }
+}

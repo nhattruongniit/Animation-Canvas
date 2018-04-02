@@ -1,0 +1,123 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$bg-count: (0px, 662px, 0px, -662px, 750px, 300px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'bg-count', );
+$bg-period: (0px, 1247px, 0px, -1247px, 750px, 200px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'bg-period', );
+$button-start-game: (1426px, 281px, -1426px, -281px, 647px, 170px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'button-start-game', );
+$catch-notification: (112px, 1451px, -112px, -1451px, 708px, 117px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'catch-notification', );
+$count-times: (2062px, 544px, -2062px, -544px, 61px, 57px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'count-times', );
+$digit-0: (410px, 1784px, -410px, -1784px, 69px, 86px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'digit-0', );
+$digit-1: (2062px, 455px, -2062px, -455px, 56px, 85px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'digit-1', );
+$digit-2: (2020px, 654px, -2020px, -654px, 76px, 85px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'digit-2', );
+$digit-3: (336px, 1784px, -336px, -1784px, 70px, 86px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'digit-3', );
+$digit-4: (253px, 1643px, -253px, -1643px, 73px, 85px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'digit-4', );
+$digit-5: (2011px, 1247px, -2011px, -1247px, 74px, 85px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'digit-5', );
+$digit-6: (262px, 1784px, -262px, -1784px, 70px, 86px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'digit-6', );
+$digit-7: (330px, 1643px, -330px, -1643px, 69px, 84px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'digit-7', );
+$digit-8: (112px, 1784px, -112px, -1784px, 71px, 86px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'digit-8', );
+$digit-9: (187px, 1784px, -187px, -1784px, 71px, 86px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'digit-9', );
+$digit-comma: (2077px, 281px, -2077px, -281px, 24px, 32px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'digit-comma', );
+$footer-btn: (1742px, 654px, -1742px, -654px, 274px, 97px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'footer-btn', );
+$footer-icon: (1426px, 455px, -1426px, -455px, 312px, 312px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'footer-icon', );
+$incentive-attention: (754px, 899px, -754px, -899px, 478px, 51px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'incentive-attention', );
+$incentive-complete: (112px, 1643px, -112px, -1643px, 137px, 137px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'incentive-complete', );
+$incentive-gauge-arrow: (1864px, 1117px, -1864px, -1117px, 111px, 67px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'incentive-gauge-arrow', );
+$incentive-gauge-bg-color: (0px, 1451px, 0px, -1451px, 52px, 1555px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'incentive-gauge-bg-color', );
+$incentive-gauge-bg: (56px, 1451px, -56px, -1451px, 52px, 1555px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'incentive-gauge-bg', );
+$incentive-info-box: (1426px, 771px, -1426px, -771px, 632px, 144px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'incentive-info-box', );
+$incentive-upgrade-title: (754px, 1247px, -754px, -1247px, 737px, 200px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'incentiveUpgrade-title', );
+$mail-text: (1426px, 1199px, -1426px, -1199px, 192px, 34px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'mail-text', );
+$pediod-time: (1426px, 1059px, -1426px, -1059px, 659px, 54px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'pediod_time', );
+$section-body: (824px, 1522px, -824px, -1522px, 737px, 5px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'section_body', );
+$section-bottom: (112px, 1572px, -112px, -1572px, 736px, 67px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'section_bottom', );
+$section-top: (824px, 1451px, -824px, -1451px, 736px, 67px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'section_top', );
+$sns-facebook: (1839px, 1247px, -1839px, -1247px, 168px, 168px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'sns-facebook', );
+$sns-line: (1495px, 1247px, -1495px, -1247px, 168px, 168px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'sns-line', );
+$sns-twitter: (1667px, 1247px, -1667px, -1247px, 168px, 168px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'sns-twitter', );
+$terms-header-logo: (1877px, 919px, -1877px, -919px, 188px, 128px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'terms-header-logo', );
+$terms-header-title: (1742px, 455px, -1742px, -455px, 316px, 195px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'terms-header-title', );
+$terms-title: (754px, 822px, -754px, -822px, 434px, 73px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'terms-title', );
+$terms-back-button: (1426px, 919px, -1426px, -919px, 447px, 136px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'terms_back_button', );
+$title-count: (1426px, 1117px, -1426px, -1117px, 434px, 78px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'title-count', );
+$title-incentive: (754px, 742px, -754px, -742px, 434px, 76px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'title-incentive', );
+$title-period: (754px, 662px, -754px, -662px, 434px, 76px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'title-period', );
+$upgrade-100: (1426px, 0px, -1426px, 0px, 699px, 277px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'upgrade-100', );
+$upgrade-1000: (713px, 0px, -713px, 0px, 709px, 327px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'upgrade-1000', );
+$upgrade-1500: (0px, 331px, 0px, -331px, 709px, 327px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'upgrade-1500', );
+$upgrade-2000: (0px, 0px, 0px, 0px, 709px, 327px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'upgrade-2000', );
+$upgrade-300: (703px, 966px, -703px, -966px, 699px, 277px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'upgrade-300', );
+$upgrade-500: (0px, 966px, 0px, -966px, 699px, 277px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'upgrade-500', );
+$upgrade-start: (713px, 331px, -713px, -331px, 699px, 277px, 2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', 'upgrade-start', );
+$spritesheet-sprites: ($bg-count, $bg-period, $button-start-game, $catch-notification, $count-times, $digit-0, $digit-1, $digit-2, $digit-3, $digit-4, $digit-5, $digit-6, $digit-7, $digit-8, $digit-9, $digit-comma, $footer-btn, $footer-icon, $incentive-attention, $incentive-complete, $incentive-gauge-arrow, $incentive-gauge-bg-color, $incentive-gauge-bg, $incentive-info-box, $incentive-upgrade-title, $mail-text, $pediod-time, $section-body, $section-bottom, $section-top, $sns-facebook, $sns-line, $sns-twitter, $terms-header-logo, $terms-header-title, $terms-title, $terms-back-button, $title-count, $title-incentive, $title-period, $upgrade-100, $upgrade-1000, $upgrade-1500, $upgrade-2000, $upgrade-300, $upgrade-500, $upgrade-start, );
+$spritesheet: (2125px, 3006px, '/campaign/memory-battle/assets/images/spritesheet.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

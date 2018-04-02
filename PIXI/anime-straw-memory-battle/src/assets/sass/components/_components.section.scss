@@ -1,0 +1,75 @@
+.c-section{
+    position: relative;
+    &--period{
+        display: block;
+        padding-top: 65px;
+        @include sprite($bg-period);
+    }
+    &--count{
+        display: block;
+        padding-top: 65px;
+        @include sprite($bg-count);
+    }
+    &--incentive{
+        display: block;
+        padding-top: 65px;
+        //@include sprite($bg-incentive);
+        background-image: url(/campaign/memory-battle/assets/images/bg-incentive.png);
+        height: 3310px;
+    }
+
+    &--resizable{
+        &:before, &:after {
+            content: '';
+            display: block;
+            width: 736px;
+            height: 67px;
+            margin: 0 auto;
+        }
+        &:before{
+            @include sprite-image($section-top);
+            @include sprite-position($section-top);
+
+            margin-bottom: -1px;
+        }
+        &:after {
+            @include sprite-image($section-bottom);
+            @include sprite-position($section-bottom);
+
+            margin-top: -1px;
+        }
+
+        &__body{
+            background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAuEAAAAFCAYAAADrCjIvAAABCklEQVRoge3WT0vCcACH8Wf7gds0nGWZhe1QCEHgqRcQdIpOHYNeXtBL6BR4r5MQBLMOoz+KtkxrOWesd2FB3887eG6PFYZhFATB1l7FoeRC0YGz0xY72z7NZplyxWH6nRP1Em46r1y2n4nvhhwfnuCVitQaDZbXa/gVnyXfp+C5LNfWsI2hulEnTb4ouC6WbeF4HiIiIiIif808yzDGkEw+sI1hnmXEvR55njN8eiHuDxgO+kziN2bTGY/dLu3rK1Z2Vzk62GS/VSWoF3GNxXiUEoZj7h/eOb/okKTwOYXbUUoURQC2/dvBIiIiIiL/jSZcRERERGTBNOEiIiIiIgumCRcRERERWbAfA55PnOlm1qcAAAAASUVORK5CYII=");
+            background-repeat: repeat-y;
+            background-position: 7px;
+        }
+    }
+}
+.c-section__title{
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    &--period{
+        display: block;
+        overflow: hidden;
+        @include sprite($title-period);
+    }
+    &--count{
+        display: block;
+        overflow: hidden;
+        @include sprite($title-count);
+    }
+    &--incentive{
+        display: block;
+        overflow: hidden;
+        @include sprite($title-incentive);
+    }
+    &--terms{
+        display: block;
+        overflow: hidden;
+        @include sprite($terms-title);
+    }
+}

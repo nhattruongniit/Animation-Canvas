@@ -1,0 +1,31 @@
+.c-contents {
+    padding: 150px 0 0px;
+    background-image: url(/campaign/memory-battle/assets/images/bg.jpg);
+    background-position: 0 0, 0 68px;
+
+    &--terms {
+        padding-top: 60px;
+    }
+}
+
+.banner-2nd {
+    background-image: url(/campaign/memory-battle/assets/images/banner-2nd.png);
+    width: 750px;
+    height: 286px;
+    display: block;
+}
+.mail__box{
+    width: 750px;
+    height: 135px;
+    background-color: #260d00;
+}
+
+.mail__box__link {
+    @include sprite($mail-text);
+    font-size: 0;
+    display: block;
+    color: transparent;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}

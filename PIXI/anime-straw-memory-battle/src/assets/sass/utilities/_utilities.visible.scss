@@ -1,0 +1,17 @@
+/* ==========================================================================
+   #HIDE
+   ========================================================================== */
+
+/**
+ * Hide visually and from screen readers.
+ */
+
+.is-ended {
+    .u-show-ended {
+        display: block !important;
+    }
+    .u-hide-ended {
+        display: none !important;
+    }
+}
+

@@ -1,0 +1,48 @@
+{
+    "character-san": {
+        "x": 0,
+        "y": 871,
+        "width": 441,
+        "height": 925,
+        "source_image": "/Users/nguyen.t.an/Documents/projects/straw_memory-battle-campaign/src/assets/spritesheet/sprite-canvas/characters/character-san.png",
+        "image": "characters.png",
+        "total_width": 1006,
+        "total_height": 1796,
+        "offset_x": 0,
+        "offset_y": -871,
+        "px": {
+            "x": "0px",
+            "y": "871px",
+            "offset_x": "0px",
+            "offset_y": "-871px",
+            "height": "925px",
+            "width": "441px",
+            "total_height": "1796px",
+            "total_width": "1006px"
+        },
+        "escaped_image": "characters.png"
+    },
+    "character-zor": {
+        "x": 0,
+        "y": 0,
+        "width": 1006,
+        "height": 869,
+        "source_image": "/Users/nguyen.t.an/Documents/projects/straw_memory-battle-campaign/src/assets/spritesheet/sprite-canvas/characters/character-zor.png",
+        "image": "characters.png",
+        "total_width": 1006,
+        "total_height": 1796,
+        "offset_x": 0,
+        "offset_y": 0,
+        "px": {
+            "x": "0px",
+            "y": "0px",
+            "offset_x": "0px",
+            "offset_y": "0px",
+            "height": "869px",
+            "width": "1006px",
+            "total_height": "1796px",
+            "total_width": "1006px"
+        },
+        "escaped_image": "characters.png"
+    }
+}

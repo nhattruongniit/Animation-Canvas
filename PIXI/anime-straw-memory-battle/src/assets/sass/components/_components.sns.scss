@@ -1,0 +1,37 @@
+.c-sns{
+    font-size: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.c-sns__item{
+    display: inline-block;
+}
+body{
+    &.is-pc{
+        .c-sns__link{
+            display: block;
+            &--facebook{
+                @include sprite($sns-facebook);
+            }
+            &--twitter{
+                @include sprite($sns-twitter);
+            }
+        }
+    }
+    &.is-sp{
+        .c-sns__link{
+            display: block;
+            color: transparent;
+            &--facebook{
+                @include sprite($sns-facebook);
+            }
+            &--twitter{
+                @include sprite($sns-twitter);
+            }
+            &--line{
+                @include sprite($sns-line);
+            }
+        }
+    }
+}
+

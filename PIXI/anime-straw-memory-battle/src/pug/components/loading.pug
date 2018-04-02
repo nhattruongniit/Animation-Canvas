@@ -1,0 +1,27 @@
+div#js-loading.loading
+    i.loading__belt
+    div.loading__chopper
+        i.loading__chopperShadow
+        span.loading__chopperBody
+            span.loading__chopperBodyInner
+                i(data-body='0')
+                i(data-body='1')
+                i(data-body='2')
+        i.loading__chopperHead
+        i.loading__chopperAse
+    div.loading__text Loading
+
+script.
+    window.addEventListener('load', function(){
+        var loadingElement = document.getElementById('js-loading');
+
+        loadingElement.className += ' loaded';
+
+        setTimeout(function(){
+            if(loadingElement.remove){
+                loadingElement.remove();
+            }else{
+                loadingElement.parentElement.removeChild(loadingElement);
+            }
+        }, 2000)
+    });

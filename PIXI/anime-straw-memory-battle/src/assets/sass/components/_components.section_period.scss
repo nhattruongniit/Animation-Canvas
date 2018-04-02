@@ -1,0 +1,12 @@
+.c-section-period {
+    text-align: center;
+
+    &__time{
+        @include sprite($pediod-time);
+        display: inline-block;
+    }
+
+    .o-end-message{
+        top: 56px;
+    }
+}

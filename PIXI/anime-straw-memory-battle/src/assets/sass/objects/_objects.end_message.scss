@@ -1,0 +1,22 @@
+.o-end-message {
+    width: 570px;
+    height: 62px;
+    font-size: 28px;
+    color: #fff;
+    line-height: 62px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #a60000;
+    box-shadow: 0px 5px 18px 2px #000;
+
+    position: absolute;
+    top: 56px;
+    left: 50%;
+    margin-left: -285px;
+
+    display: none;
+}
+
+.is-ended .o-end-message {
+    display: block;
+}

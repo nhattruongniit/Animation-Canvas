@@ -1,0 +1,46 @@
+.o-digit {
+    display: inline-block;
+    width: 56px;
+    height: 0;
+    padding-top: 84px;
+    overflow: hidden;
+    color: transparent;
+
+    &--0 {
+        @include sprite($digit-0);
+    }
+    &--1 {
+        @include sprite($digit-1);
+    }
+    &--2 {
+        @include sprite($digit-2);
+    }
+    &--3 {
+        @include sprite($digit-3);
+    }
+    &--4 {
+        @include sprite($digit-4);
+    }
+    &--5 {
+        @include sprite($digit-5);
+    }
+    &--6 {
+        @include sprite($digit-6);
+    }
+    &--7 {
+        @include sprite($digit-7);
+    }
+    &--8 {
+        @include sprite($digit-8);
+    }
+    &--9 {
+        @include sprite($digit-9);
+    }
+    &--comma {
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+        padding-top: 34px;
+
+        @include sprite($digit-comma);
+    }
+}

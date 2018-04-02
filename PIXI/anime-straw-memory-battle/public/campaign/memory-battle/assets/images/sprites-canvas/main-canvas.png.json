@@ -1,0 +1,354 @@
+{
+    "frames": {
+        "canvas-logo": {
+            "frame": {
+                "x": 214,
+                "y": 495,
+                "w": 263,
+                "h": 162
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 263,
+                "h": 162
+            },
+            "sourceSize": {
+                "w": 263,
+                "h": 162
+            }
+        },
+        "canvas-title": {
+            "frame": {
+                "x": 0,
+                "y": 197,
+                "w": 664,
+                "h": 182
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 664,
+                "h": 182
+            },
+            "sourceSize": {
+                "w": 664,
+                "h": 182
+            }
+        },
+        "catch-bg": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 750,
+                "h": 195
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 750,
+                "h": 195
+            },
+            "sourceSize": {
+                "w": 750,
+                "h": 195
+            }
+        },
+        "catch-text1": {
+            "frame": {
+                "x": 449,
+                "y": 381,
+                "w": 190,
+                "h": 78
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 190,
+                "h": 78
+            },
+            "sourceSize": {
+                "w": 190,
+                "h": 78
+            }
+        },
+        "catch-text2": {
+            "frame": {
+                "x": 641,
+                "y": 381,
+                "w": 100,
+                "h": 65
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 65
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 65
+            }
+        },
+        "catch-text3": {
+            "frame": {
+                "x": 0,
+                "y": 381,
+                "w": 447,
+                "h": 112
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 447,
+                "h": 112
+            },
+            "sourceSize": {
+                "w": 447,
+                "h": 112
+            }
+        },
+        "crown": {
+            "frame": {
+                "x": 752,
+                "y": 0,
+                "w": 207,
+                "h": 204
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 207,
+                "h": 204
+            },
+            "sourceSize": {
+                "w": 207,
+                "h": 204
+            }
+        },
+        "icon-1": {
+            "frame": {
+                "x": 0,
+                "y": 710,
+                "w": 164,
+                "h": 164
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 164,
+                "h": 164
+            },
+            "sourceSize": {
+                "w": 164,
+                "h": 164
+            }
+        },
+        "icon-2": {
+            "frame": {
+                "x": 752,
+                "y": 557,
+                "w": 151,
+                "h": 151
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 151,
+                "h": 151
+            },
+            "sourceSize": {
+                "w": 151,
+                "h": 151
+            }
+        },
+        "icon-3": {
+            "frame": {
+                "x": 0,
+                "y": 495,
+                "w": 212,
+                "h": 213
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 212,
+                "h": 213
+            },
+            "sourceSize": {
+                "w": 212,
+                "h": 213
+            }
+        },
+        "icon-4": {
+            "frame": {
+                "x": 752,
+                "y": 206,
+                "w": 191,
+                "h": 191
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 191,
+                "h": 191
+            },
+            "sourceSize": {
+                "w": 191,
+                "h": 191
+            }
+        },
+        "medal-blue": {
+            "frame": {
+                "x": 574,
+                "y": 495,
+                "w": 92,
+                "h": 92
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 92,
+                "h": 92
+            },
+            "sourceSize": {
+                "w": 92,
+                "h": 92
+            }
+        },
+        "medal-green": {
+            "frame": {
+                "x": 166,
+                "y": 710,
+                "w": 92,
+                "h": 92
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 92,
+                "h": 92
+            },
+            "sourceSize": {
+                "w": 92,
+                "h": 92
+            }
+        },
+        "medal-red": {
+            "frame": {
+                "x": 260,
+                "y": 710,
+                "w": 92,
+                "h": 92
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 92,
+                "h": 92
+            },
+            "sourceSize": {
+                "w": 92,
+                "h": 92
+            }
+        },
+        "medal-yellow": {
+            "frame": {
+                "x": 479,
+                "y": 495,
+                "w": 93,
+                "h": 92
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 93,
+                "h": 92
+            },
+            "sourceSize": {
+                "w": 93,
+                "h": 92
+            }
+        },
+        "star": {
+            "frame": {
+                "x": 905,
+                "y": 557,
+                "w": 40,
+                "h": 40
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 40,
+                "h": 40
+            },
+            "sourceSize": {
+                "w": 40,
+                "h": 40
+            }
+        },
+        "two-years": {
+            "frame": {
+                "x": 752,
+                "y": 399,
+                "w": 195,
+                "h": 156
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 195,
+                "h": 156
+            },
+            "sourceSize": {
+                "w": 195,
+                "h": 156
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "main-canvas.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 959,
+            "h": 874
+        },
+        "scale": 1
+    }
+}

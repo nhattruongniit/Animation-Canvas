@@ -1,0 +1,21 @@
+meta(charset='UTF-8')
+meta(name='viewport', content='width=750')
+title #{meta.title}
+
+include meta
+
+link(rel="apple-touch-icon" href=(meta.touchIconPath + "apple-touch-icon.png") sizes="180x180")
+link(rel="icon" type="image/png" href="https://onepiece-ts.bn-ent.net/assets/img/favicon/favicon-32x32.png" sizes="32x32")
+link(rel="icon" type="image/png" href="https://onepiece-ts.bn-ent.net/assets/img/favicon/favicon-16x16.png" sizes="16x16")
+
+if config.debuggable
+    include gtm_dev
+else
+    include gtm
+include score_js
+
+script.
+    (function (e, t, n) {
+        var r = e.querySelectorAll("html")[0];
+        r.className = r.className.replace(/(^|\s)no-js(\s|$)/, "$1js$2")
+    })(document, window, 0);

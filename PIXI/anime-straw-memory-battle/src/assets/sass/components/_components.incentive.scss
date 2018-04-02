@@ -1,0 +1,191 @@
+$incentiveTransitionTime: 1500ms;
+
+.c-incentive__catch {
+    position: relative;
+    content: "";
+    top: 10px;
+    height: 550px;
+    width: 750px;
+    &::after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: '';
+        display: block;
+    }
+}
+
+.c-incentive__catch__notification {
+    @include sprite($catch-notification);
+    margin: 30px auto 0;
+}
+
+.c-incentive__attention {
+    margin: 20px auto 0;
+    display: block;
+    padding-top: 55px;
+    overflow: hidden;
+    color: transparent;
+    @include sprite($incentive-attention);
+}
+
+.c-incentive__startGame-box {
+    position: relative;
+
+    .o-end-message {
+        top: 50px;
+    }
+}
+
+.c-incentive__startGame, .c-incentive__startGame-ended {
+    margin: -1px auto 0;
+    display: block;
+    overflow: hidden;
+    color: transparent;
+
+    @include sprite($button-start-game);
+}
+
+.c-incentive__startGame-ended {
+    display: none;
+    opacity: 0.5;
+}
+
+.c-incentiveUpgrade {
+    position: relative;
+
+    &__title {
+        margin: 0 auto 4px;
+        display: block;
+        overflow: hidden;
+        color: transparent;
+        @include sprite($incentive-upgrade-title);
+    }
+
+    &__gauge, &__gauge-color {
+        position: absolute;
+        min-width: 52px;
+        top: 263px;
+        left: 20px;
+        height: 1555px;
+    }
+    &__gauge-arrow {
+        position: absolute;
+        top: 342px;
+        left: 19px;
+
+        @include sprite($incentive-gauge-arrow);
+
+        -webkit-transition: top $incentiveTransitionTime linear 500ms;
+        -moz-transition: top $incentiveTransitionTime linear 500ms;
+        -ms-transition: top $incentiveTransitionTime linear 500ms;
+        -o-transition: top $incentiveTransitionTime linear 500ms;
+        transition: top $incentiveTransitionTime linear 500ms;
+    }
+
+    &__gauge {
+        @include sprite-image($incentive-gauge-bg);
+        @include sprite-position($incentive-gauge-bg);
+    }
+    &__gauge-color {
+        height: 112px;
+
+        @include sprite-image($incentive-gauge-bg-color);
+        @include sprite-position($incentive-gauge-bg-color);
+
+        -webkit-transition: height $incentiveTransitionTime linear 500ms;
+        -moz-transition: height $incentiveTransitionTime linear 500ms;
+        -ms-transition: height $incentiveTransitionTime linear 500ms;
+        -o-transition: height $incentiveTransitionTime linear 500ms;
+        transition: height $incentiveTransitionTime linear 500ms;
+    }
+    &__gauge-color.animated{
+        height: 1555px !important;
+    }
+}
+
+.c-incentiveUpgrade__box {
+    //
+}
+
+.c-incentiveUpgrade__step {
+    position: relative;
+    margin-left: 40px;
+    margin-top: -70px;
+
+    &--start {
+        @include sprite($upgrade-start);
+        margin-top: 0;
+    }
+    &--100 {
+        @include sprite($upgrade-100);
+    }
+    &--300 {
+        @include sprite($upgrade-300);
+    }
+    &--500 {
+        @include sprite($upgrade-500);
+    }
+    &--1000 {
+        @include sprite($upgrade-1000);
+    }
+    &--1500 {
+        @include sprite($upgrade-1500);
+    }
+    &--2000 {
+        @include sprite($upgrade-2000);
+    }
+    &--1000, &--1500, &--2000 {
+        margin-left: 30px;
+    }
+}
+
+.c-incentiveUpgrade__complete-icon {
+    @include sprite($incentive-complete);
+
+    position: absolute;
+    top: 2px;
+    right: 0;
+
+    display: none;
+
+    opacity: 0;
+    -webkit-transform: scale(4);
+    transform: scale(4);
+
+    -webkit-transition-property: opacity, -webkit-transform;
+    transition-property: opacity, -webkit-transform;
+    transition-property: transform, opacity;
+    transition-property: transform, opacity, -webkit-transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+    transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+
+.c-incentiveUpgrade__step.animated .c-incentiveUpgrade__complete-icon,
+.c-incentiveUpgrade__complete-icon.animated{
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+@each $score in (100 300 500 1000 1500 2000) {
+    .is-sbp-#{$score} .c-incentiveUpgrade__step--#{$score} .c-incentiveUpgrade__complete-icon {
+        display: block;
+    }
+}
+
+.c-incentiveInfo__box {
+    margin: 20px auto;
+    overflow: hidden;
+    @include sprite($incentive-info-box);
+}
+
+.c-incentiveInfo__text {
+    font-size: 22px;
+    line-height: 1.636;
+    text-align: center;
+}

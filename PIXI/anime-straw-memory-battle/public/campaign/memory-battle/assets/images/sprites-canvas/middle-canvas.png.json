@@ -1,0 +1,254 @@
+{
+    "frames": {
+        "middle-all": {
+            "frame": {
+                "x": 0,
+                "y": 449,
+                "w": 312,
+                "h": 199
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 312,
+                "h": 199
+            },
+            "sourceSize": {
+                "w": 312,
+                "h": 199
+            }
+        },
+        "middle-arrow": {
+            "frame": {
+                "x": 0,
+                "y": 650,
+                "w": 191,
+                "h": 175
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 191,
+                "h": 175
+            },
+            "sourceSize": {
+                "w": 191,
+                "h": 175
+            }
+        },
+        "middle-map-item1": {
+            "frame": {
+                "x": 531,
+                "y": 449,
+                "w": 176,
+                "h": 138
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 176,
+                "h": 138
+            },
+            "sourceSize": {
+                "w": 176,
+                "h": 138
+            }
+        },
+        "middle-map-item2": {
+            "frame": {
+                "x": 709,
+                "y": 449,
+                "w": 131,
+                "h": 131
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 131,
+                "h": 131
+            },
+            "sourceSize": {
+                "w": 131,
+                "h": 131
+            }
+        },
+        "middle-map-item3": {
+            "frame": {
+                "x": 470,
+                "y": 310,
+                "w": 146,
+                "h": 119
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 146,
+                "h": 119
+            },
+            "sourceSize": {
+                "w": 146,
+                "h": 119
+            }
+        },
+        "middle-map-item4": {
+            "frame": {
+                "x": 975,
+                "y": 449,
+                "w": 130,
+                "h": 131
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 130,
+                "h": 131
+            },
+            "sourceSize": {
+                "w": 130,
+                "h": 131
+            }
+        },
+        "middle-map-item5": {
+            "frame": {
+                "x": 842,
+                "y": 449,
+                "w": 131,
+                "h": 131
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 131,
+                "h": 131
+            },
+            "sourceSize": {
+                "w": 131,
+                "h": 131
+            }
+        },
+        "middle-map-item6": {
+            "frame": {
+                "x": 1107,
+                "y": 449,
+                "w": 123,
+                "h": 125
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 123,
+                "h": 125
+            },
+            "sourceSize": {
+                "w": 123,
+                "h": 125
+            }
+        },
+        "middle-map-item7": {
+            "frame": {
+                "x": 314,
+                "y": 449,
+                "w": 215,
+                "h": 173
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 215,
+                "h": 173
+            },
+            "sourceSize": {
+                "w": 215,
+                "h": 173
+            }
+        },
+        "middle-map": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 581,
+                "h": 308
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 581,
+                "h": 308
+            },
+            "sourceSize": {
+                "w": 581,
+                "h": 308
+            }
+        },
+        "middle-text1": {
+            "frame": {
+                "x": 0,
+                "y": 310,
+                "w": 468,
+                "h": 137
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 468,
+                "h": 137
+            },
+            "sourceSize": {
+                "w": 468,
+                "h": 137
+            }
+        },
+        "middle-text2": {
+            "frame": {
+                "x": 583,
+                "y": 0,
+                "w": 740,
+                "h": 230
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 740,
+                "h": 230
+            },
+            "sourceSize": {
+                "w": 740,
+                "h": 230
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "middle-canvas.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1323,
+            "h": 825
+        },
+        "scale": 1
+    }
+}
